@@ -31,3 +31,11 @@ export const LEADERS: Leader[] = [
 
 export const LEADER_BY_SLUG: Readonly<Record<string, Leader | undefined>> = Object.fromEntries(LEADERS.map((leader) => [leader.slug, leader]));
 export const getLeader = (slug: string | undefined): Leader | undefined => slug && Object.hasOwn(LEADER_BY_SLUG, slug) ? LEADER_BY_SLUG[slug] : undefined;
+
+// 后台保存后由 runtime 层原址替换，保持模块导出的数组引用不变。
+export function replaceLeaders(next: Leader[]): void {
+  LEADERS.splice(0, LEADERS.length, ...next);
+  const index = LEADER_BY_SLUG as Record<string, Leader | undefined>;
+  Object.keys(index).forEach((key) => { delete index[key]; });
+  LEADERS.forEach((leader) => { index[leader.slug] = leader; });
+}

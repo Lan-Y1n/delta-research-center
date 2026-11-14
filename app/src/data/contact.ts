@@ -11,3 +11,10 @@ export const CONTACT: Contact = {
       { name: 'Bilibili', handle: '@your-handle', url: 'https://www.bilibili.com/' },
     ],
   };
+
+export function replaceContact(next: Contact): void {
+  CONTACT.email = next.email ?? '';
+  CONTACT.phone = next.phone ?? '';
+  CONTACT.location = next.location ?? '';
+  CONTACT.socials.splice(0, CONTACT.socials.length, ...(next.socials ?? []));
+}

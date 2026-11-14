@@ -126,3 +126,10 @@ export const INSTITUTES: Field[] = [
 export const INST_BY_SLUG: Readonly<Record<string, Field | undefined>> = Object.fromEntries(INSTITUTES.map((field) => [field.slug, field]));
 export const getInstitute = (slug: string | undefined): Field | undefined => slug && Object.hasOwn(INST_BY_SLUG, slug) ? INST_BY_SLUG[slug] : undefined;
 export const leaderOf = (field: Field): Leader | null => field.leader ? getLeader(field.leader) ?? null : null;
+
+export function replaceInstitutes(next: Field[]): void {
+  INSTITUTES.splice(0, INSTITUTES.length, ...next);
+  const index = INST_BY_SLUG as Record<string, Field | undefined>;
+  Object.keys(index).forEach((key) => { delete index[key]; });
+  INSTITUTES.forEach((field) => { index[field.slug] = field; });
+}

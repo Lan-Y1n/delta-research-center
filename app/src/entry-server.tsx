@@ -32,3 +32,6 @@ export const routes: string[] = [
 ];
 
 export const siteEn: string = SITE.en;
+
+/** 预渲染脚本用：当前生效的内容快照（可写进 dist/content.json 与 window.__CONTENT__）。 */
+export { snapshotContent, applyContent } from './data/runtime';

@@ -12,7 +12,7 @@ export const SITE = {
   copyright: '© 20XX DELTA RESEARCH CENTER',
   archive: 'DRC / ARCHIVE TERMINAL · D',
   nav: { home: '主页', fields: '领域', cooperation: '合作', contact: '联络', fieldHeading: '研究领域', fieldEn: 'RESEARCH FIELDS', fieldSummary: '六个领域 · 05 位负责人', institution: '机构', about: '关于本站', backTop: '返回顶部', projects: '研究项目' },
-} as const;
+};
 
 export const PLATE_COPY = {
   portrait: 'PORTRAIT · 档案影像占位',
@@ -48,7 +48,7 @@ export const HOME_COPY = {
   projectCount: '共 06 个项目，其中 06 个为示例占位数据',
   allFields: '查看全部研究领域',
   projectDetails: '项目详情',
-} as const;
+};
 
 export const ABOUT_COPY = {
   no: '03', en: 'THE INSTITUTE', title: '关于德尔塔',

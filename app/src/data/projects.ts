@@ -43,3 +43,7 @@ export const PROJECTS: Project[] = [
 
 export const projectsOf = (instSlug: FieldSlug | string): Project[] => PROJECTS.filter((project) => project.inst === instSlug);
 export const getProject = (code: string | undefined): Project | undefined => PROJECTS.find((project) => project.code === code);
+
+export function replaceProjects(next: Project[]): void {
+  PROJECTS.splice(0, PROJECTS.length, ...next);
+}

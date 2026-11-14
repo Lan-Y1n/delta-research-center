@@ -3,6 +3,10 @@ node_modules/
 dist/
 .vite/
 
+# ── SSR 预渲染中间产物与运行时数据 ──────────────
+dist-ssr/
+app/data/
+
 # ── 环境变量与部署状态（.env 只有镜像名与 tag，仍按惯例不入库）──
 .env
 .env.*
