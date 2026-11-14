@@ -5,3 +5,4 @@ dist/
 .deploy.lock/
 .env.new.*
 qa/*.log
+dist-ssr/

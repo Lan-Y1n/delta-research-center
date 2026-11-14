@@ -35,7 +35,10 @@ function makeRefractionMap() {
 }
 
 export default function GlassEnvironment() {
-  const [map] = useState(makeRefractionMap);
+  // 预渲染（SSR）阶段没有 document：先渲染空滤镜，挂载后再用 canvas 生成折射位移图。
+  // 首帧两端都是空串，避免 hydration 不一致；生成后 feImage 才挂上图片。
+  const [map, setMap] = useState('');
+  useEffect(() => { setMap(makeRefractionMap()); }, []);
   useEffect(() => {
     const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
     const reducedTransparency = matchMedia('(prefers-reduced-transparency: reduce)');

@@ -23,21 +23,24 @@ const isMaterialPreference = (value: string | null): value is MaterialPreference
 type DesignContextValue = { design: DesignId; setDesign: (design: DesignId) => void; material: MaterialPreference; setMaterial: (material: MaterialPreference) => void };
 const DesignContext = createContext<DesignContextValue | null>(null);
 
+/** 预渲染（SSR）阶段没有 window，按默认值渲染；浏览器首帧再读 URL 与本地偏好。 */
+const currentSearch = () => (typeof window === 'undefined' ? '' : window.location.search);
+
 function initialDesign(): DesignId {
-  const requested = new URLSearchParams(window.location.search).get('design');
+  const requested = new URLSearchParams(currentSearch()).get('design');
   if (isDesignId(requested)) return requested;
   try {
-    const stored = localStorage.getItem(STORAGE_KEY);
+    const stored = typeof localStorage === 'undefined' ? null : localStorage.getItem(STORAGE_KEY);
     if (isDesignId(stored)) return stored;
   } catch { /* A blocked preference store does not prevent viewing a design. */ }
   return 'glass-1';
 }
 
 function initialMaterial(): MaterialPreference {
-  const requested = new URLSearchParams(window.location.search).get('material');
+  const requested = new URLSearchParams(currentSearch()).get('material');
   if (isMaterialPreference(requested)) return requested;
   try {
-    const stored = localStorage.getItem(MATERIAL_STORAGE_KEY);
+    const stored = typeof localStorage === 'undefined' ? null : localStorage.getItem(MATERIAL_STORAGE_KEY);
     if (isMaterialPreference(stored)) return stored;
   } catch { /* A blocked preference store does not prevent viewing a material. */ }
   return 'auto';

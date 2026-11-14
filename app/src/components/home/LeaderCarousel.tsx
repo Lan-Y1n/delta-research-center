@@ -14,7 +14,7 @@ export default function LeaderCarousel() {
   const [playing, setPlaying] = useState(true);
   const [hovering, setHovering] = useState(false);
   const [focused, setFocused] = useState(false);
-  const [hidden, setHidden] = useState(document.hidden);
+  const [hidden, setHidden] = useState(() => typeof document !== 'undefined' && document.hidden);
   const [dragging, setDragging] = useState(false);
   const [width, setWidth] = useState(0);
   const viewport = useRef<HTMLDivElement>(null);
