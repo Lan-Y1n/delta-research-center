@@ -1,9 +1,19 @@
 import { useState } from 'react';
+import { useLocation } from 'react-router-dom';
 import { DESIGNS, MATERIALS, useDesign } from './DesignProvider';
 
+/** 只有显式带调试参数时才显示切换器：?switcher=1，或 URL 里已有 design / material。
+ *  正常访问（线上默认）完全不渲染，避免悬浮控件遮挡正文、项目卡片和复制按钮。 */
+function switcherRequested(search: string) {
+  const params = new URLSearchParams(search);
+  return params.has('switcher') || params.has('design') || params.has('material');
+}
+
 export default function DesignSwitcher() {
+  const location = useLocation();
   const { design, setDesign, material, setMaterial } = useDesign();
   const [collapsed, setCollapsed] = useState(false);
+  if (!switcherRequested(location.search)) return null;
   const materialIndex = MATERIALS.findIndex(option => option.id === material);
   const nextMaterial = MATERIALS[(materialIndex + 1) % MATERIALS.length];
   return <aside className={`design-switcher${collapsed ? ' is-collapsed' : ''}`} data-testid="design-switcher" aria-label="Stitch 设计方案切换">
