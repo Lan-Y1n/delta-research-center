@@ -1,0 +1,34 @@
+# ── 依赖与构建产物 ───────────────────────────────
+node_modules/
+dist/
+.vite/
+
+# ── 环境变量与部署状态（.env 只有镜像名与 tag，仍按惯例不入库）──
+.env
+.env.*
+!.env.example
+.deploy-state/
+.deploy.lock*
+*.log
+
+# ── 打包快照 ─────────────────────────────────────
+*.zip
+
+# ── 大体积二进制：设计原稿、QA 截图、原型预览图 ──
+# 说明：这些是过程证据，留在本地即可；如需归档请用网盘或 Git LFS
+app/design/liquid-glass/
+app/qa/screenshots/
+app/qa/**/*.png
+archive/**/*.png
+demo/preview/
+codex-handoff/demo/preview/
+
+# ── 交付包内的 demo 与根目录 demo/ 完全重复，只保留根目录那份 ──
+codex-handoff/demo/
+
+# ── 系统与编辑器 ─────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/

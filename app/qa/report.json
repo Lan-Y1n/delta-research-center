@@ -1,0 +1,331 @@
+{
+  "baseURL": "http://127.0.0.1:18180",
+  "timestamp": "2026-11-11T11:47:01.952Z",
+  "results": [
+    {
+      "name": "1440 route /",
+      "pass": true,
+      "detail": "德尔塔; 1440px / 1440px"
+    },
+    {
+      "name": "1440 route /field/physics",
+      "pass": true,
+      "detail": "物理研究院; 1440px / 1440px"
+    },
+    {
+      "name": "1440 route /field/biology",
+      "pass": true,
+      "detail": "生物研究院; 1440px / 1440px"
+    },
+    {
+      "name": "1440 route /field/chemistry",
+      "pass": true,
+      "detail": "化学研究院; 1440px / 1440px"
+    },
+    {
+      "name": "1440 route /field/mathematics",
+      "pass": true,
+      "detail": "数学研究院; 1440px / 1440px"
+    },
+    {
+      "name": "1440 route /field/philosophy",
+      "pass": true,
+      "detail": "哲学研究院; 1440px / 1440px"
+    },
+    {
+      "name": "1440 route /field/armed-forces",
+      "pass": true,
+      "detail": "武装力量; 1440px / 1440px"
+    },
+    {
+      "name": "1440 route /leader/lanyin",
+      "pass": true,
+      "detail": "澜因; 1440px / 1440px"
+    },
+    {
+      "name": "1440 route /leader/huishi",
+      "pass": true,
+      "detail": "慧矢; 1440px / 1440px"
+    },
+    {
+      "name": "1440 route /leader/redact-chem",
+      "pass": true,
+      "detail": "数据删除; 1440px / 1440px"
+    },
+    {
+      "name": "1440 route /leader/redact-math",
+      "pass": true,
+      "detail": "数据删除; 1440px / 1440px"
+    },
+    {
+      "name": "1440 route /leader/zhiyan",
+      "pass": true,
+      "detail": "质湮; 1440px / 1440px"
+    },
+    {
+      "name": "1440 route /project/DRC-PHY-2401",
+      "pass": true,
+      "detail": "亚稳态量子相干阵列; 1440px / 1440px"
+    },
+    {
+      "name": "1440 route /project/DRC-BIO-2402",
+      "pass": true,
+      "detail": "自组织细胞图谱; 1440px / 1440px"
+    },
+    {
+      "name": "1440 route /project/DRC-CHM-2403",
+      "pass": true,
+      "detail": "低温催化路径筛选; 1440px / 1440px"
+    },
+    {
+      "name": "1440 route /project/DRC-MTH-2404",
+      "pass": true,
+      "detail": "高维拓扑不变量计算框架; 1440px / 1440px"
+    },
+    {
+      "name": "1440 route /project/DRC-PHL-2405",
+      "pass": true,
+      "detail": "意识边界的形式化描述; 1440px / 1440px"
+    },
+    {
+      "name": "1440 route /project/DRC-AFR-2406",
+      "pass": true,
+      "detail": "分布式感知节点组网; 1440px / 1440px"
+    },
+    {
+      "name": "1440 route /cooperation",
+      "pass": true,
+      "detail": "合作; 1440px / 1440px"
+    },
+    {
+      "name": "1440 route /qa-page-does-not-exist",
+      "pass": true,
+      "detail": "页面不存在; 1440px / 1440px"
+    },
+    {
+      "name": "390 route /",
+      "pass": true,
+      "detail": "德尔塔; 390px / 390px"
+    },
+    {
+      "name": "390 route /field/physics",
+      "pass": true,
+      "detail": "物理研究院; 390px / 390px"
+    },
+    {
+      "name": "390 route /field/biology",
+      "pass": true,
+      "detail": "生物研究院; 390px / 390px"
+    },
+    {
+      "name": "390 route /field/chemistry",
+      "pass": true,
+      "detail": "化学研究院; 390px / 390px"
+    },
+    {
+      "name": "390 route /field/mathematics",
+      "pass": true,
+      "detail": "数学研究院; 390px / 390px"
+    },
+    {
+      "name": "390 route /field/philosophy",
+      "pass": true,
+      "detail": "哲学研究院; 390px / 390px"
+    },
+    {
+      "name": "390 route /field/armed-forces",
+      "pass": true,
+      "detail": "武装力量; 390px / 390px"
+    },
+    {
+      "name": "390 route /leader/lanyin",
+      "pass": true,
+      "detail": "澜因; 390px / 390px"
+    },
+    {
+      "name": "390 route /leader/huishi",
+      "pass": true,
+      "detail": "慧矢; 390px / 390px"
+    },
+    {
+      "name": "390 route /leader/redact-chem",
+      "pass": true,
+      "detail": "数据删除; 390px / 390px"
+    },
+    {
+      "name": "390 route /leader/redact-math",
+      "pass": true,
+      "detail": "数据删除; 390px / 390px"
+    },
+    {
+      "name": "390 route /leader/zhiyan",
+      "pass": true,
+      "detail": "质湮; 390px / 390px"
+    },
+    {
+      "name": "390 route /project/DRC-PHY-2401",
+      "pass": true,
+      "detail": "亚稳态量子相干阵列; 390px / 390px"
+    },
+    {
+      "name": "390 route /project/DRC-BIO-2402",
+      "pass": true,
+      "detail": "自组织细胞图谱; 390px / 390px"
+    },
+    {
+      "name": "390 route /project/DRC-CHM-2403",
+      "pass": true,
+      "detail": "低温催化路径筛选; 390px / 390px"
+    },
+    {
+      "name": "390 route /project/DRC-MTH-2404",
+      "pass": true,
+      "detail": "高维拓扑不变量计算框架; 390px / 390px"
+    },
+    {
+      "name": "390 route /project/DRC-PHL-2405",
+      "pass": true,
+      "detail": "意识边界的形式化描述; 390px / 390px"
+    },
+    {
+      "name": "390 route /project/DRC-AFR-2406",
+      "pass": true,
+      "detail": "分布式感知节点组网; 390px / 390px"
+    },
+    {
+      "name": "390 route /cooperation",
+      "pass": true,
+      "detail": "合作; 390px / 390px"
+    },
+    {
+      "name": "390 route /qa-page-does-not-exist",
+      "pass": true,
+      "detail": "页面不存在; 390px / 390px"
+    },
+    {
+      "name": "unknown inherited-key route /field/__proto__ returns 404",
+      "pass": true
+    },
+    {
+      "name": "unknown inherited-key route /field/toString returns 404",
+      "pass": true
+    },
+    {
+      "name": "unknown inherited-key route /leader/__proto__ returns 404",
+      "pass": true
+    },
+    {
+      "name": "unknown inherited-key route /leader/toString returns 404",
+      "pass": true
+    },
+    {
+      "name": "internal links resolve to implemented routes",
+      "pass": true
+    },
+    {
+      "name": "1440×810 complete hero in viewport",
+      "pass": true,
+      "detail": [
+        {
+          "selector": ".hero-title",
+          "top": 166.40625,
+          "bottom": 343.34375
+        },
+        {
+          "selector": ".hero-cta",
+          "top": 564.796875,
+          "bottom": 610.796875
+        },
+        {
+          "selector": ".hero-stats",
+          "top": 640.796875,
+          "bottom": 708.96875
+        },
+        {
+          "selector": "[data-testid=\"leader-carousel\"]",
+          "top": 90,
+          "bottom": 739.375
+        }
+      ]
+    },
+    {
+      "name": "1280×800 complete hero in viewport",
+      "pass": true,
+      "detail": [
+        690.15625,
+        729.375
+      ]
+    },
+    {
+      "name": "carousel autoplay after 5.6 seconds",
+      "pass": true,
+      "detail": {
+        "before": 0,
+        "after": 1
+      }
+    },
+    {
+      "name": "carousel hover pauses autoplay",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "carousel focus pauses autoplay",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "carousel next and previous buttons",
+      "pass": true
+    },
+    {
+      "name": "carousel keyboard left/right",
+      "pass": true
+    },
+    {
+      "name": "carousel pause/resume button",
+      "pass": true
+    },
+    {
+      "name": "carousel mouse drag advances without navigating",
+      "pass": true
+    },
+    {
+      "name": "carousel photo navigates to corresponding field",
+      "pass": true
+    },
+    {
+      "name": "desktop field menu hover, Escape, outside and click toggle",
+      "pass": true
+    },
+    {
+      "name": "mobile menu full screen, focus trap, Escape and navigation",
+      "pass": true
+    },
+    {
+      "name": "cooperation copies phone, location and email with toast",
+      "pass": true
+    },
+    {
+      "name": "mobile touch swipe advances without navigating",
+      "pass": true
+    },
+    {
+      "name": "reduced-motion preference is honored",
+      "pass": true,
+      "detail": 0
+    },
+    {
+      "name": "no browser console or runtime errors",
+      "pass": true
+    },
+    {
+      "name": "no failed network requests",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "failedRequests": [],
+  "passed": 62,
+  "failed": 0
+}

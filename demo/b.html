@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="dark">
+<title>德尔塔研究中心 · DELTA RESEARCH CENTER — 方案 B</title>
+<meta name="description" content="德尔塔研究中心（DELTA RESEARCH CENTER）— 虚构科研机构演示站。方案 B：精密仪器 · PRECISION INSTRUMENT">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cpath d='M32 8 58 56H6Z' fill='none' stroke='%2365C9F4' stroke-width='3'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="theme-b.css">
+</head>
+<body class="theme-b">
+
+<div class="hud" aria-hidden="true">
+  <span class="hud-l">DRC · ARCHIVE TERMINAL</span>
+  <span class="hud-r"><i class="dot"></i>ONLINE <b id="hudClock">--:--:--</b></span>
+</div>
+
+<header class="hdr" id="hdr">
+  <div class="hdr-in">
+    <a class="brand" href="#/" aria-label="德尔塔研究中心 · 主页">
+      <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true">
+        <path d="M16 3 30 29H2Z" fill="none" stroke="currentColor" stroke-width="1.3"/>
+        <path d="M16 12.5 23.5 26h-15Z" fill="currentColor" opacity=".22"/>
+      </svg>
+      <span class="brand-txt">
+        <b>德尔塔研究中心</b>
+        <i>DELTA RESEARCH CENTER</i>
+      </span>
+    </a>
+
+    <nav class="nav" aria-label="主导航">
+      <a class="nav-link" data-nav="home" href="#/">
+        <span class="nl-cn">主页</span><span class="nl-en">HOME</span>
+      </a>
+      <div class="nav-item" id="navFields">
+        <button class="nav-link nav-trigger" data-nav="fields" aria-expanded="false" aria-haspopup="true">
+          <span class="nl-cn">领域</span><span class="nl-en">FIELDS</span>
+          <svg class="chev" viewBox="0 0 10 6" aria-hidden="true"><path d="M1 1l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.2"/></svg>
+        </button>
+        <div class="menu" role="menu">
+          <div class="menu-head"><span>研究领域</span><i>RESEARCH FIELDS</i><b>06</b></div>
+          <div class="menu-grid">
+            <a class="menu-item" role="menuitem" href="#/field/physics"><span class="mi-no">01</span><span class="mi-t"><b>物理</b><i>Physics</i></span><span class="arw" aria-hidden="true">↗</span></a>
+            <a class="menu-item" role="menuitem" href="#/field/biology"><span class="mi-no">02</span><span class="mi-t"><b>生物</b><i>Biology</i></span><span class="arw" aria-hidden="true">↗</span></a>
+            <a class="menu-item" role="menuitem" href="#/field/chemistry"><span class="mi-no">03</span><span class="mi-t"><b>化学</b><i>Chemistry</i></span><span class="arw" aria-hidden="true">↗</span></a>
+            <a class="menu-item" role="menuitem" href="#/field/mathematics"><span class="mi-no">04</span><span class="mi-t"><b>数学</b><i>Mathematics</i></span><span class="arw" aria-hidden="true">↗</span></a>
+            <a class="menu-item" role="menuitem" href="#/field/philosophy"><span class="mi-no">05</span><span class="mi-t"><b>哲学</b><i>Philosophy</i></span><span class="arw" aria-hidden="true">↗</span></a>
+            <a class="menu-item" role="menuitem" href="#/field/armed-forces"><span class="mi-no">06</span><span class="mi-t"><b>武装力量</b><i>Armed Forces</i></span><span class="arw" aria-hidden="true">↗</span></a>
+          </div>
+          <div class="menu-foot"><span>六个领域 · 05 位负责人</span><a href="#/cooperation">合作联络 →</a></div>
+        </div>
+      </div>
+      <a class="nav-link" data-nav="coop" href="#/cooperation">
+        <span class="nl-cn">合作</span><span class="nl-en">COOPERATION</span>
+      </a>
+    </nav>
+
+    <div class="hdr-meta">
+      <span class="node"><i class="dot"></i>NODE · 192.168.10.60</span>
+      <a class="hdr-cta" href="#/cooperation">联络 <span aria-hidden="true">→</span></a>
+    </div>
+
+    <button class="burger" id="burger" aria-label="打开菜单" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+  </div>
+
+  <div class="mob" id="mob">
+    <div class="mob-in">
+      <a href="#/">主页 <i>HOME</i></a>
+      <div class="mob-group">
+        <span>领域 <i>FIELDS</i></span>
+        <a href="#/field/physics">物理 <i>Physics</i></a>
+        <a href="#/field/biology">生物 <i>Biology</i></a>
+        <a href="#/field/chemistry">化学 <i>Chemistry</i></a>
+        <a href="#/field/mathematics">数学 <i>Mathematics</i></a>
+        <a href="#/field/philosophy">哲学 <i>Philosophy</i></a>
+        <a href="#/field/armed-forces">武装力量 <i>Armed Forces</i></a>
+      </div>
+      <a href="#/cooperation">合作 <i>COOPERATION</i></a>
+    </div>
+  </div>
+</header>
+
+<main id="view"></main>
+
+<footer class="foot">
+  <div class="foot-in">
+    <div class="foot-brand">
+      <div class="fb-mark" aria-hidden="true">Δ</div>
+      <div class="fb-txt"><b>德尔塔研究中心</b><i>DELTA RESEARCH CENTER</i></div>
+      <p>在可测量的边界之外，重新定义问题。</p>
+      <span class="fb-badge">虚构机构 · 演示站点</span>
+    </div>
+    <div class="foot-cols">
+      <div class="fc">
+        <b>研究领域</b>
+        <a href="#/field/physics">物理研究院</a>
+        <a href="#/field/biology">生物研究院</a>
+        <a href="#/field/chemistry">化学研究院</a>
+        <a href="#/field/mathematics">数学研究院</a>
+        <a href="#/field/philosophy">哲学研究院</a>
+        <a href="#/field/armed-forces">武装力量</a>
+      </div>
+      <div class="fc">
+        <b>机构</b>
+        <a href="#/">主页</a>
+        <a href="#/cooperation">合作与联络</a>
+        <a href="#/field/physics">研究项目</a>
+        <a href="#/">返回顶部</a>
+      </div>
+      <div class="fc fc-note">
+        <b>关于本站</b>
+        <p>本站为虚构科研机构的展示站点。人物、项目、设施与联系方式均为示例占位内容，不对应任何真实机构或个人。</p>
+      </div>
+    </div>
+  </div>
+  <div class="foot-base">
+    <span>© 20XX DELTA RESEARCH CENTER</span>
+    <span>DRC / ARCHIVE TERMINAL · B</span>
+    <a href="#/">BACK TO TOP ↑</a>
+  </div>
+</footer>
+
+<div class="demo-switch" role="navigation" aria-label="方案切换">
+  <span class="ds-k">方案</span>
+  <a class="ds-a" href="a.html">A</a>
+  <a class="ds-b" href="b.html" aria-current="page">B</a>
+  <a class="ds-c" href="c.html">C</a>
+  <a class="ds-d" href="d.html">D</a>
+  <a class="ds-e" href="e.html">E</a>
+  <a class="ds-f" href="f.html">F</a>
+  <button class="ds-hide" title="隐藏" aria-label="隐藏方案切换">×</button>
+</div>
+
+<div id="veil" aria-hidden="true"><span class="veil-mark">Δ</span><span class="veil-txt">DELTA RESEARCH CENTER</span></div>
+<div id="toast" role="status" aria-live="polite"></div>
+
+<script src="core.js"></script>
+<script>
+  document.querySelector('.ds-hide').addEventListener('click', function () {
+    document.querySelector('.demo-switch').classList.add('is-hidden');
+  });
+</script>
+</body>
+</html>

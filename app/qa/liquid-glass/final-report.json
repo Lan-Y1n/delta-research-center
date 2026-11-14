@@ -1,0 +1,1294 @@
+{
+  "baseURL": "http://127.0.0.1:18180",
+  "timestamp": "2026-11-11T12:31:48.807Z",
+  "results": [
+    {
+      "name": "glass-1 home 1440x810",
+      "pass": true,
+      "detail": {
+        "viewport": 1440,
+        "document": 1440,
+        "portraitWidth": 309.375,
+        "portraitHeight": 550,
+        "portraitRatio": 0.5625,
+        "text": [
+          {
+            "className": "hero-title",
+            "filter": "none"
+          },
+          {
+            "className": "hero-lede",
+            "filter": "none"
+          },
+          {
+            "className": "proj-name",
+            "filter": "none"
+          },
+          {
+            "className": "proj-name",
+            "filter": "none"
+          },
+          {
+            "className": "proj-name",
+            "filter": "none"
+          },
+          {
+            "className": "proj-name",
+            "filter": "none"
+          },
+          {
+            "className": "proj-name",
+            "filter": "none"
+          },
+          {
+            "className": "proj-name",
+            "filter": "none"
+          }
+        ],
+        "bounds": [
+          {
+            "className": "hero-title",
+            "top": 179.875,
+            "bottom": 337.4375
+          },
+          {
+            "className": "hero-cta",
+            "top": 538.859375,
+            "bottom": 582.859375
+          },
+          {
+            "className": "hero-stats",
+            "top": 614.859375,
+            "bottom": 701.359375
+          },
+          {
+            "className": "hero-carousel",
+            "top": 104,
+            "bottom": 739.75
+          }
+        ]
+      }
+    },
+    {
+      "name": "glass-1 real glass and sharp foreground 1440",
+      "pass": true,
+      "detail": {
+        "supportsBackdrop": true,
+        "surfaces": [
+          {
+            "selector": ".hdr",
+            "backdrop": "saturate(1.5) blur(20px)",
+            "background": "rgba(18, 18, 18, 0.72)",
+            "beforeBackdrop": "none"
+          },
+          {
+            "selector": ".proj-card",
+            "backdrop": "saturate(1.5) blur(24px)",
+            "background": "rgba(35, 40, 48, 0.22)",
+            "beforeBackdrop": "none"
+          },
+          {
+            "selector": ".slide-cap",
+            "backdrop": "saturate(1.5) blur(24px)",
+            "background": "rgba(22, 22, 24, 0.46)",
+            "beforeBackdrop": "none"
+          }
+        ],
+        "blurredForeground": []
+      }
+    },
+    {
+      "name": "glass-1 home 390x844",
+      "pass": true,
+      "detail": {
+        "viewport": 390,
+        "document": 390,
+        "portraitWidth": 340,
+        "portraitHeight": 604.4375,
+        "portraitRatio": 0.5625064626202048,
+        "text": [
+          {
+            "className": "hero-title",
+            "filter": "none"
+          },
+          {
+            "className": "hero-lede",
+            "filter": "none"
+          },
+          {
+            "className": "proj-name",
+            "filter": "none"
+          },
+          {
+            "className": "proj-name",
+            "filter": "none"
+          },
+          {
+            "className": "proj-name",
+            "filter": "none"
+          },
+          {
+            "className": "proj-name",
+            "filter": "none"
+          },
+          {
+            "className": "proj-name",
+            "filter": "none"
+          },
+          {
+            "className": "proj-name",
+            "filter": "none"
+          }
+        ],
+        "bounds": [
+          {
+            "className": "hero-title",
+            "top": 155.75,
+            "bottom": 253.65625
+          },
+          {
+            "className": "hero-cta",
+            "top": 449.09375,
+            "bottom": 493.09375
+          },
+          {
+            "className": "hero-stats",
+            "top": 525.09375,
+            "bottom": 698.09375
+          },
+          {
+            "className": "hero-carousel",
+            "top": 740.09375,
+            "bottom": 1430.28125
+          }
+        ]
+      }
+    },
+    {
+      "name": "glass-1 real glass and sharp foreground 390",
+      "pass": true,
+      "detail": {
+        "supportsBackdrop": true,
+        "surfaces": [
+          {
+            "selector": ".hdr",
+            "backdrop": "saturate(1.5) blur(16px)",
+            "background": "rgba(18, 18, 18, 0.72)",
+            "beforeBackdrop": "none"
+          },
+          {
+            "selector": ".proj-card",
+            "backdrop": "saturate(1.5) blur(16px)",
+            "background": "rgba(35, 40, 48, 0.22)",
+            "beforeBackdrop": "none"
+          },
+          {
+            "selector": ".slide-cap",
+            "backdrop": "saturate(1.5) blur(16px)",
+            "background": "rgba(22, 22, 24, 0.46)",
+            "beforeBackdrop": "none"
+          }
+        ],
+        "blurredForeground": []
+      }
+    },
+    {
+      "name": "glass-1 mobile navigation",
+      "pass": true
+    },
+    {
+      "name": "glass-1 carousel controls, drag and photo route",
+      "pass": true,
+      "detail": {
+        "href": "/field/biology",
+        "finalDesign": "glass-1"
+      }
+    },
+    {
+      "name": "glass-1 project progress fills",
+      "pass": true,
+      "detail": [
+        {
+          "expected": 12,
+          "rendered": 11.997854652721909
+        },
+        {
+          "expected": 64,
+          "rendered": 63.99570930544382
+        },
+        {
+          "expected": 38,
+          "rendered": 37.99742572133433
+        },
+        {
+          "expected": 100,
+          "rendered": 100
+        },
+        {
+          "expected": 21,
+          "rendered": 20.997586484312148
+        },
+        {
+          "expected": 47,
+          "rendered": 46.99667489005685
+        }
+      ]
+    },
+    {
+      "name": "glass-2 home 1440x810",
+      "pass": true,
+      "detail": {
+        "viewport": 1440,
+        "document": 1440,
+        "portraitWidth": 309.375,
+        "portraitHeight": 550,
+        "portraitRatio": 0.5625,
+        "text": [
+          {
+            "className": "hero-title",
+            "filter": "none"
+          },
+          {
+            "className": "hero-lede",
+            "filter": "none"
+          },
+          {
+            "className": "proj-name",
+            "filter": "none"
+          },
+          {
+            "className": "proj-name",
+            "filter": "none"
+          },
+          {
+            "className": "proj-name",
+            "filter": "none"
+          },
+          {
+            "className": "proj-name",
+            "filter": "none"
+          },
+          {
+            "className": "proj-name",
+            "filter": "none"
+          },
+          {
+            "className": "proj-name",
+            "filter": "none"
+          }
+        ],
+        "bounds": [
+          {
+            "className": "hero-title",
+            "top": 201.5,
+            "bottom": 339.90625
+          },
+          {
+            "className": "hero-cta",
+            "top": 534.234375,
+            "bottom": 578.234375
+          },
+          {
+            "className": "hero-stats",
+            "top": 606.234375,
+            "bottom": 681.484375
+          },
+          {
+            "className": "hero-carousel",
+            "top": 104,
+            "bottom": 739.75
+          }
+        ]
+      }
+    },
+    {
+      "name": "glass-2 real glass and sharp foreground 1440",
+      "pass": true,
+      "detail": {
+        "supportsBackdrop": true,
+        "surfaces": [
+          {
+            "selector": ".hdr",
+            "backdrop": "saturate(1.65) blur(20px)",
+            "background": "rgba(18, 18, 18, 0.72)",
+            "beforeBackdrop": "none"
+          },
+          {
+            "selector": ".proj-card",
+            "backdrop": "saturate(1.65) blur(30px)",
+            "background": "rgba(35, 40, 48, 0.22)",
+            "beforeBackdrop": "none"
+          },
+          {
+            "selector": ".slide-cap",
+            "backdrop": "saturate(1.65) blur(24px)",
+            "background": "rgba(22, 22, 24, 0.46)",
+            "beforeBackdrop": "none"
+          }
+        ],
+        "blurredForeground": []
+      }
+    },
+    {
+      "name": "glass-2 home 390x844",
+      "pass": true,
+      "detail": {
+        "viewport": 390,
+        "document": 390,
+        "portraitWidth": 340,
+        "portraitHeight": 604.4375,
+        "portraitRatio": 0.5625064626202048,
+        "text": [
+          {
+            "className": "hero-title",
+            "filter": "none"
+          },
+          {
+            "className": "hero-lede",
+            "filter": "none"
+          },
+          {
+            "className": "proj-name",
+            "filter": "none"
+          },
+          {
+            "className": "proj-name",
+            "filter": "none"
+          },
+          {
+            "className": "proj-name",
+            "filter": "none"
+          },
+          {
+            "className": "proj-name",
+            "filter": "none"
+          },
+          {
+            "className": "proj-name",
+            "filter": "none"
+          },
+          {
+            "className": "proj-name",
+            "filter": "none"
+          }
+        ],
+        "bounds": [
+          {
+            "className": "hero-title",
+            "top": 157.25,
+            "bottom": 258.3125
+          },
+          {
+            "className": "hero-cta",
+            "top": 441.25,
+            "bottom": 485.25
+          },
+          {
+            "className": "hero-stats",
+            "top": 513.25,
+            "bottom": 665.75
+          },
+          {
+            "className": "hero-carousel",
+            "top": 711.75,
+            "bottom": 1401.9375
+          }
+        ]
+      }
+    },
+    {
+      "name": "glass-2 real glass and sharp foreground 390",
+      "pass": true,
+      "detail": {
+        "supportsBackdrop": true,
+        "surfaces": [
+          {
+            "selector": ".hdr",
+            "backdrop": "saturate(1.65) blur(16px)",
+            "background": "rgba(18, 18, 18, 0.72)",
+            "beforeBackdrop": "none"
+          },
+          {
+            "selector": ".proj-card",
+            "backdrop": "saturate(1.65) blur(16px)",
+            "background": "rgba(35, 40, 48, 0.22)",
+            "beforeBackdrop": "none"
+          },
+          {
+            "selector": ".slide-cap",
+            "backdrop": "saturate(1.65) blur(16px)",
+            "background": "rgba(22, 22, 24, 0.46)",
+            "beforeBackdrop": "none"
+          }
+        ],
+        "blurredForeground": []
+      }
+    },
+    {
+      "name": "glass-2 mobile navigation",
+      "pass": true
+    },
+    {
+      "name": "glass-2 carousel controls, drag and photo route",
+      "pass": true,
+      "detail": {
+        "href": "/field/biology",
+        "finalDesign": "glass-2"
+      }
+    },
+    {
+      "name": "glass-2 project progress fills",
+      "pass": true,
+      "detail": [
+        {
+          "expected": 12,
+          "rendered": 11.997854652721909
+        },
+        {
+          "expected": 64,
+          "rendered": 63.99570930544382
+        },
+        {
+          "expected": 38,
+          "rendered": 37.99742572133433
+        },
+        {
+          "expected": 100,
+          "rendered": 100
+        },
+        {
+          "expected": 21,
+          "rendered": 20.997586484312148
+        },
+        {
+          "expected": 47,
+          "rendered": 46.99667489005685
+        }
+      ]
+    },
+    {
+      "name": "glass-3 home 1440x810",
+      "pass": true,
+      "detail": {
+        "viewport": 1440,
+        "document": 1440,
+        "portraitWidth": 309.375,
+        "portraitHeight": 550,
+        "portraitRatio": 0.5625,
+        "text": [
+          {
+            "className": "hero-title",
+            "filter": "none"
+          },
+          {
+            "className": "hero-lede",
+            "filter": "none"
+          },
+          {
+            "className": "proj-name",
+            "filter": "none"
+          },
+          {
+            "className": "proj-name",
+            "filter": "none"
+          },
+          {
+            "className": "proj-name",
+            "filter": "none"
+          },
+          {
+            "className": "proj-name",
+            "filter": "none"
+          },
+          {
+            "className": "proj-name",
+            "filter": "none"
+          },
+          {
+            "className": "proj-name",
+            "filter": "none"
+          }
+        ],
+        "bounds": [
+          {
+            "className": "hero-title",
+            "top": 184.15625,
+            "bottom": 342.875
+          },
+          {
+            "className": "hero-cta",
+            "top": 543.59375,
+            "bottom": 587.59375
+          },
+          {
+            "className": "hero-stats",
+            "top": 621.59375,
+            "bottom": 703.84375
+          },
+          {
+            "className": "hero-carousel",
+            "top": 104,
+            "bottom": 739.75
+          }
+        ]
+      }
+    },
+    {
+      "name": "glass-3 real glass and sharp foreground 1440",
+      "pass": true,
+      "detail": {
+        "supportsBackdrop": true,
+        "surfaces": [
+          {
+            "selector": ".hdr",
+            "backdrop": "saturate(1.35) blur(20px)",
+            "background": "rgba(18, 18, 18, 0.72)",
+            "beforeBackdrop": "none"
+          },
+          {
+            "selector": ".proj-card",
+            "backdrop": "saturate(1.35) blur(28px)",
+            "background": "rgba(35, 40, 48, 0.22)",
+            "beforeBackdrop": "none"
+          },
+          {
+            "selector": ".slide-cap",
+            "backdrop": "saturate(1.35) blur(24px)",
+            "background": "rgba(22, 22, 24, 0.46)",
+            "beforeBackdrop": "none"
+          }
+        ],
+        "blurredForeground": []
+      }
+    },
+    {
+      "name": "glass-3 home 390x844",
+      "pass": true,
+      "detail": {
+        "viewport": 390,
+        "document": 390,
+        "portraitWidth": 340,
+        "portraitHeight": 604.4375,
+        "portraitRatio": 0.5625064626202048,
+        "text": [
+          {
+            "className": "hero-title",
+            "filter": "none"
+          },
+          {
+            "className": "hero-lede",
+            "filter": "none"
+          },
+          {
+            "className": "proj-name",
+            "filter": "none"
+          },
+          {
+            "className": "proj-name",
+            "filter": "none"
+          },
+          {
+            "className": "proj-name",
+            "filter": "none"
+          },
+          {
+            "className": "proj-name",
+            "filter": "none"
+          },
+          {
+            "className": "proj-name",
+            "filter": "none"
+          },
+          {
+            "className": "proj-name",
+            "filter": "none"
+          }
+        ],
+        "bounds": [
+          {
+            "className": "hero-title",
+            "top": 162.25,
+            "bottom": 262
+          },
+          {
+            "className": "hero-cta",
+            "top": 456.015625,
+            "bottom": 500.015625
+          },
+          {
+            "className": "hero-stats",
+            "top": 534.015625,
+            "bottom": 695.515625
+          },
+          {
+            "className": "hero-carousel",
+            "top": 741.515625,
+            "bottom": 1431.703125
+          }
+        ]
+      }
+    },
+    {
+      "name": "glass-3 real glass and sharp foreground 390",
+      "pass": true,
+      "detail": {
+        "supportsBackdrop": true,
+        "surfaces": [
+          {
+            "selector": ".hdr",
+            "backdrop": "saturate(1.35) blur(16px)",
+            "background": "rgba(18, 18, 18, 0.72)",
+            "beforeBackdrop": "none"
+          },
+          {
+            "selector": ".proj-card",
+            "backdrop": "saturate(1.35) blur(16px)",
+            "background": "rgba(35, 40, 48, 0.22)",
+            "beforeBackdrop": "none"
+          },
+          {
+            "selector": ".slide-cap",
+            "backdrop": "saturate(1.35) blur(16px)",
+            "background": "rgba(22, 22, 24, 0.46)",
+            "beforeBackdrop": "none"
+          }
+        ],
+        "blurredForeground": []
+      }
+    },
+    {
+      "name": "glass-3 mobile navigation",
+      "pass": true
+    },
+    {
+      "name": "glass-3 carousel controls, drag and photo route",
+      "pass": true,
+      "detail": {
+        "href": "/field/biology",
+        "finalDesign": "glass-3"
+      }
+    },
+    {
+      "name": "glass-3 project progress fills",
+      "pass": true,
+      "detail": [
+        {
+          "expected": 12,
+          "rendered": 11.997854652721909
+        },
+        {
+          "expected": 64,
+          "rendered": 63.99570930544382
+        },
+        {
+          "expected": 38,
+          "rendered": 37.99742572133433
+        },
+        {
+          "expected": 100,
+          "rendered": 100
+        },
+        {
+          "expected": 21,
+          "rendered": 20.997586484312148
+        },
+        {
+          "expected": 47,
+          "rendered": 46.99667489005685
+        }
+      ]
+    },
+    {
+      "name": "design picker persists across route navigation and reload",
+      "pass": true
+    },
+    {
+      "name": "latest design route /",
+      "pass": true
+    },
+    {
+      "name": "latest design route /field/physics",
+      "pass": true
+    },
+    {
+      "name": "latest design route /field/biology",
+      "pass": true
+    },
+    {
+      "name": "latest design route /field/chemistry",
+      "pass": true
+    },
+    {
+      "name": "latest design route /field/mathematics",
+      "pass": true
+    },
+    {
+      "name": "latest design route /field/philosophy",
+      "pass": true
+    },
+    {
+      "name": "latest design route /field/armed-forces",
+      "pass": true
+    },
+    {
+      "name": "latest design route /leader/lanyin",
+      "pass": true
+    },
+    {
+      "name": "latest design route /leader/huishi",
+      "pass": true
+    },
+    {
+      "name": "latest design route /leader/redact-chem",
+      "pass": true
+    },
+    {
+      "name": "latest design route /leader/redact-math",
+      "pass": true
+    },
+    {
+      "name": "latest design route /leader/zhiyan",
+      "pass": true
+    },
+    {
+      "name": "latest design route /project/DRC-PHY-2401",
+      "pass": true
+    },
+    {
+      "name": "latest design route /project/DRC-BIO-2402",
+      "pass": true
+    },
+    {
+      "name": "latest design route /project/DRC-CHM-2403",
+      "pass": true
+    },
+    {
+      "name": "latest design route /project/DRC-MTH-2404",
+      "pass": true
+    },
+    {
+      "name": "latest design route /project/DRC-PHL-2405",
+      "pass": true
+    },
+    {
+      "name": "latest design route /project/DRC-AFR-2406",
+      "pass": true
+    },
+    {
+      "name": "latest design route /cooperation",
+      "pass": true
+    },
+    {
+      "name": "latest design route /qa-liquid-glass-not-found",
+      "pass": true
+    },
+    {
+      "name": "contact clipboard and toast regression",
+      "pass": true
+    },
+    {
+      "name": "reduced-transparency preference has a solid fallback",
+      "pass": true,
+      "detail": {
+        "media": true,
+        "surfaces": [
+          {
+            "selector": ".hdr",
+            "backdrop": "none",
+            "after": "none",
+            "rimOpacity": "0",
+            "background": "rgba(21, 23, 28, 0.97)"
+          },
+          {
+            "selector": ".proj-card",
+            "backdrop": "none",
+            "after": "none",
+            "rimOpacity": "0",
+            "background": "rgba(21, 23, 28, 0.97)"
+          },
+          {
+            "selector": ".slide-cap",
+            "backdrop": "none",
+            "after": "none",
+            "rimOpacity": "0",
+            "background": "rgba(21, 23, 28, 0.97)"
+          }
+        ]
+      }
+    },
+    {
+      "name": "explicit glass overrides reduced-transparency for comparison",
+      "pass": true,
+      "detail": [
+        {
+          "selector": ".hdr",
+          "backdrop": "saturate(1.5) blur(20px)",
+          "after": "url(\"#liquid-refraction\")"
+        },
+        {
+          "selector": ".proj-card",
+          "backdrop": "saturate(1.5) blur(24px)",
+          "after": "url(\"#liquid-refraction\")"
+        },
+        {
+          "selector": ".slide-cap",
+          "backdrop": "saturate(1.5) blur(24px)",
+          "after": "url(\"#liquid-refraction\")"
+        }
+      ]
+    },
+    {
+      "name": "explicit solid material disables backdrop effects",
+      "pass": true,
+      "detail": [
+        {
+          "selector": ".hdr",
+          "backdrop": "none",
+          "after": "none"
+        },
+        {
+          "selector": ".proj-card",
+          "backdrop": "none",
+          "after": "none"
+        },
+        {
+          "selector": ".slide-cap",
+          "backdrop": "none",
+          "after": "none"
+        }
+      ]
+    },
+    {
+      "name": "no external runtime asset requests",
+      "pass": true
+    },
+    {
+      "name": "no failed requests",
+      "pass": true
+    },
+    {
+      "name": "no console or runtime errors",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "failedRequests": [],
+  "externalRequests": [],
+  "passed": 49,
+  "failed": 0,
+  "validationMode": "Initial suite retained; six home geometry/sharpness checks and screenshots rerun after final CSS. The three initial mobile overflow failures were resolved.",
+  "initialRun": {
+    "timestamp": "2026-11-11T12:28:55.831Z",
+    "passed": 46,
+    "failed": 3
+  },
+  "resolvedFailures": [
+    "glass-1 home 390x844",
+    "glass-2 home 390x844",
+    "glass-3 home 390x844"
+  ],
+  "rerunResults": [
+    {
+      "name": "glass-1 home 1440x810",
+      "pass": true,
+      "detail": {
+        "viewport": 1440,
+        "document": 1440,
+        "portraitWidth": 309.375,
+        "portraitHeight": 550,
+        "portraitRatio": 0.5625,
+        "text": [
+          {
+            "className": "hero-title",
+            "filter": "none"
+          },
+          {
+            "className": "hero-lede",
+            "filter": "none"
+          },
+          {
+            "className": "proj-name",
+            "filter": "none"
+          },
+          {
+            "className": "proj-name",
+            "filter": "none"
+          },
+          {
+            "className": "proj-name",
+            "filter": "none"
+          },
+          {
+            "className": "proj-name",
+            "filter": "none"
+          },
+          {
+            "className": "proj-name",
+            "filter": "none"
+          },
+          {
+            "className": "proj-name",
+            "filter": "none"
+          }
+        ],
+        "bounds": [
+          {
+            "className": "hero-title",
+            "top": 179.875,
+            "bottom": 337.4375
+          },
+          {
+            "className": "hero-cta",
+            "top": 538.859375,
+            "bottom": 582.859375
+          },
+          {
+            "className": "hero-stats",
+            "top": 614.859375,
+            "bottom": 701.359375
+          },
+          {
+            "className": "hero-carousel",
+            "top": 104,
+            "bottom": 739.75
+          }
+        ]
+      }
+    },
+    {
+      "name": "glass-1 home 390x844",
+      "pass": true,
+      "detail": {
+        "viewport": 390,
+        "document": 390,
+        "portraitWidth": 340,
+        "portraitHeight": 604.4375,
+        "portraitRatio": 0.5625064626202048,
+        "text": [
+          {
+            "className": "hero-title",
+            "filter": "none"
+          },
+          {
+            "className": "hero-lede",
+            "filter": "none"
+          },
+          {
+            "className": "proj-name",
+            "filter": "none"
+          },
+          {
+            "className": "proj-name",
+            "filter": "none"
+          },
+          {
+            "className": "proj-name",
+            "filter": "none"
+          },
+          {
+            "className": "proj-name",
+            "filter": "none"
+          },
+          {
+            "className": "proj-name",
+            "filter": "none"
+          },
+          {
+            "className": "proj-name",
+            "filter": "none"
+          }
+        ],
+        "bounds": [
+          {
+            "className": "hero-title",
+            "top": 155.75,
+            "bottom": 253.65625
+          },
+          {
+            "className": "hero-cta",
+            "top": 449.09375,
+            "bottom": 493.09375
+          },
+          {
+            "className": "hero-stats",
+            "top": 525.09375,
+            "bottom": 698.09375
+          },
+          {
+            "className": "hero-carousel",
+            "top": 740.09375,
+            "bottom": 1430.28125
+          }
+        ]
+      }
+    },
+    {
+      "name": "glass-2 home 1440x810",
+      "pass": true,
+      "detail": {
+        "viewport": 1440,
+        "document": 1440,
+        "portraitWidth": 309.375,
+        "portraitHeight": 550,
+        "portraitRatio": 0.5625,
+        "text": [
+          {
+            "className": "hero-title",
+            "filter": "none"
+          },
+          {
+            "className": "hero-lede",
+            "filter": "none"
+          },
+          {
+            "className": "proj-name",
+            "filter": "none"
+          },
+          {
+            "className": "proj-name",
+            "filter": "none"
+          },
+          {
+            "className": "proj-name",
+            "filter": "none"
+          },
+          {
+            "className": "proj-name",
+            "filter": "none"
+          },
+          {
+            "className": "proj-name",
+            "filter": "none"
+          },
+          {
+            "className": "proj-name",
+            "filter": "none"
+          }
+        ],
+        "bounds": [
+          {
+            "className": "hero-title",
+            "top": 201.5,
+            "bottom": 339.90625
+          },
+          {
+            "className": "hero-cta",
+            "top": 534.234375,
+            "bottom": 578.234375
+          },
+          {
+            "className": "hero-stats",
+            "top": 606.234375,
+            "bottom": 681.484375
+          },
+          {
+            "className": "hero-carousel",
+            "top": 104,
+            "bottom": 739.75
+          }
+        ]
+      }
+    },
+    {
+      "name": "glass-2 home 390x844",
+      "pass": true,
+      "detail": {
+        "viewport": 390,
+        "document": 390,
+        "portraitWidth": 340,
+        "portraitHeight": 604.4375,
+        "portraitRatio": 0.5625064626202048,
+        "text": [
+          {
+            "className": "hero-title",
+            "filter": "none"
+          },
+          {
+            "className": "hero-lede",
+            "filter": "none"
+          },
+          {
+            "className": "proj-name",
+            "filter": "none"
+          },
+          {
+            "className": "proj-name",
+            "filter": "none"
+          },
+          {
+            "className": "proj-name",
+            "filter": "none"
+          },
+          {
+            "className": "proj-name",
+            "filter": "none"
+          },
+          {
+            "className": "proj-name",
+            "filter": "none"
+          },
+          {
+            "className": "proj-name",
+            "filter": "none"
+          }
+        ],
+        "bounds": [
+          {
+            "className": "hero-title",
+            "top": 157.25,
+            "bottom": 258.3125
+          },
+          {
+            "className": "hero-cta",
+            "top": 441.25,
+            "bottom": 485.25
+          },
+          {
+            "className": "hero-stats",
+            "top": 513.25,
+            "bottom": 665.75
+          },
+          {
+            "className": "hero-carousel",
+            "top": 711.75,
+            "bottom": 1401.9375
+          }
+        ]
+      }
+    },
+    {
+      "name": "glass-3 home 1440x810",
+      "pass": true,
+      "detail": {
+        "viewport": 1440,
+        "document": 1440,
+        "portraitWidth": 309.375,
+        "portraitHeight": 550,
+        "portraitRatio": 0.5625,
+        "text": [
+          {
+            "className": "hero-title",
+            "filter": "none"
+          },
+          {
+            "className": "hero-lede",
+            "filter": "none"
+          },
+          {
+            "className": "proj-name",
+            "filter": "none"
+          },
+          {
+            "className": "proj-name",
+            "filter": "none"
+          },
+          {
+            "className": "proj-name",
+            "filter": "none"
+          },
+          {
+            "className": "proj-name",
+            "filter": "none"
+          },
+          {
+            "className": "proj-name",
+            "filter": "none"
+          },
+          {
+            "className": "proj-name",
+            "filter": "none"
+          }
+        ],
+        "bounds": [
+          {
+            "className": "hero-title",
+            "top": 184.15625,
+            "bottom": 342.875
+          },
+          {
+            "className": "hero-cta",
+            "top": 543.59375,
+            "bottom": 587.59375
+          },
+          {
+            "className": "hero-stats",
+            "top": 621.59375,
+            "bottom": 703.84375
+          },
+          {
+            "className": "hero-carousel",
+            "top": 104,
+            "bottom": 739.75
+          }
+        ]
+      }
+    },
+    {
+      "name": "glass-3 home 390x844",
+      "pass": true,
+      "detail": {
+        "viewport": 390,
+        "document": 390,
+        "portraitWidth": 340,
+        "portraitHeight": 604.4375,
+        "portraitRatio": 0.5625064626202048,
+        "text": [
+          {
+            "className": "hero-title",
+            "filter": "none"
+          },
+          {
+            "className": "hero-lede",
+            "filter": "none"
+          },
+          {
+            "className": "proj-name",
+            "filter": "none"
+          },
+          {
+            "className": "proj-name",
+            "filter": "none"
+          },
+          {
+            "className": "proj-name",
+            "filter": "none"
+          },
+          {
+            "className": "proj-name",
+            "filter": "none"
+          },
+          {
+            "className": "proj-name",
+            "filter": "none"
+          },
+          {
+            "className": "proj-name",
+            "filter": "none"
+          }
+        ],
+        "bounds": [
+          {
+            "className": "hero-title",
+            "top": 162.25,
+            "bottom": 262
+          },
+          {
+            "className": "hero-cta",
+            "top": 456.015625,
+            "bottom": 500.015625
+          },
+          {
+            "className": "hero-stats",
+            "top": 534.015625,
+            "bottom": 695.515625
+          },
+          {
+            "className": "hero-carousel",
+            "top": 741.515625,
+            "bottom": 1431.703125
+          }
+        ]
+      }
+    }
+  ]
+}

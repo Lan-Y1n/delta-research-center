@@ -1,0 +1,91 @@
+/* Material layers only. Geometry and typography belong to the Stitch variants. */
+html[data-design^='glass-'] :is(.hdr,.menu,.mob,.car-viewport,.plate-wrap,.proj-card,.mini-card,.side-panel,.glass-card,.coop-mail,.social,.ce-block,.slide-cap,.btn-ghost,.hdr-cta,.rbtn,.car-ui,.design-switcher) {
+  --surface-glass-blur: var(--glass-blur, 20px);
+  --glass-x: 50%;
+  --glass-y: 0%;
+  isolation: isolate;
+  border-color: var(--glass-border, rgba(229,245,255,.18));
+  background: rgba(19,29,41,.94);
+  box-shadow: var(--glass-shadow, 0 14px 32px -24px rgba(0,0,0,.7)), inset 0 1px 0 rgba(255,255,255,.28), inset 0 -1px 0 rgba(255,255,255,.045);
+}
+
+:where(html[data-design^='glass-'] .car-viewport,html[data-design^='glass-'] .plate-wrap,html[data-design^='glass-'] .proj-card,html[data-design^='glass-'] .mini-card,html[data-design^='glass-'] .side-panel,html[data-design^='glass-'] .glass-card,html[data-design^='glass-'] .social,html[data-design^='glass-'] .ce-block,html[data-design^='glass-'] .btn-ghost,html[data-design^='glass-'] .hdr-cta,html[data-design^='glass-'] .rbtn,html[data-design^='glass-'] .car-ui,html[data-design^='glass-'] .design-switcher) {
+  position: relative;
+}
+
+@supports ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  html[data-design^='glass-'] :is(.hdr,.menu,.mob,.car-viewport,.plate-wrap,.proj-card,.mini-card,.side-panel,.glass-card,.coop-mail,.social,.ce-block,.slide-cap,.btn-ghost,.hdr-cta,.rbtn,.car-ui,.design-switcher) {
+    background: radial-gradient(320px 160px at var(--glass-x) var(--glass-y), var(--glass-glint, rgba(255,255,255,.085)), transparent 72%), var(--glass-fill, rgba(19,29,41,.34));
+    -webkit-backdrop-filter: saturate(var(--glass-saturate, 160%)) blur(var(--surface-glass-blur));
+    backdrop-filter: saturate(var(--glass-saturate, 160%)) blur(var(--surface-glass-blur));
+  }
+
+  html[data-design^='glass-'] :is(.hdr,.menu,.mob,.car-viewport,.plate-wrap,.proj-card,.mini-card,.side-panel,.glass-card,.coop-mail,.social,.ce-block,.slide-cap,.btn-ghost,.hdr-cta,.rbtn,.car-ui,.design-switcher)::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    padding: 5px;
+    border-radius: inherit;
+    pointer-events: none;
+    background: radial-gradient(180px 100px at var(--glass-x) var(--glass-y), rgba(255,255,255,.08), transparent 74%), linear-gradient(135deg,rgba(255,255,255,.025),rgba(255,255,255,.005) 44%,rgba(255,255,255,.015));
+    opacity: var(--glass-refraction-opacity, .6);
+    -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+    mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    -webkit-backdrop-filter: url('#liquid-refraction');
+    backdrop-filter: url('#liquid-refraction');
+  }
+}
+
+html[data-design^='glass-'] :is(.btn-ghost,.hdr-cta,.rbtn)::after { padding: 2px; }
+html[data-design^='glass-'] .car-ui .rbtn::after { opacity: 0; -webkit-backdrop-filter: none; backdrop-filter: none; }
+html[data-design^='glass-'] :is(.proj-card,.mini-card,.social,.coop-mail,.btn-ghost,.hdr-cta,.rbtn):hover {
+  border-color: color-mix(in srgb, var(--glass-border, rgba(229,245,255,.18)), white 26%);
+  box-shadow: var(--glass-shadow, 0 14px 32px -24px rgba(0,0,0,.7)), inset 0 1px 0 rgba(255,255,255,.45), inset 0 -1px 0 rgba(255,255,255,.08);
+}
+
+/* Fallbacks never filter text, images or the foreground element itself. */
+html[data-design^='glass-'][data-material='solid'] :is(.hdr,.menu,.mob,.car-viewport,.plate-wrap,.proj-card,.mini-card,.side-panel,.glass-card,.coop-mail,.social,.ce-block,.slide-cap,.btn-ghost,.hdr-cta,.rbtn,.car-ui,.design-switcher) {
+  background: var(--glass-solid-fill, rgba(19,29,41,.97));
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+}
+html[data-design^='glass-'][data-material='solid'] :is(.hdr,.menu,.mob,.car-viewport,.plate-wrap,.proj-card,.mini-card,.side-panel,.glass-card,.coop-mail,.social,.ce-block,.slide-cap,.btn-ghost,.hdr-cta,.rbtn,.car-ui,.design-switcher)::after {
+  opacity: 0;
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+}
+
+@media (prefers-reduced-transparency: reduce) {
+  html[data-design^='glass-']:not([data-material='glass']) :is(.hdr,.menu,.mob,.car-viewport,.plate-wrap,.proj-card,.mini-card,.side-panel,.glass-card,.coop-mail,.social,.ce-block,.slide-cap,.btn-ghost,.hdr-cta,.rbtn,.car-ui,.design-switcher) {
+    background: var(--glass-solid-fill, rgba(19,29,41,.97));
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+  }
+  html[data-design^='glass-']:not([data-material='glass']) :is(.hdr,.menu,.mob,.car-viewport,.plate-wrap,.proj-card,.mini-card,.side-panel,.glass-card,.coop-mail,.social,.ce-block,.slide-cap,.btn-ghost,.hdr-cta,.rbtn,.car-ui,.design-switcher)::after {
+    opacity: 0;
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+  }
+}
+
+@media (max-width:680px) {
+  html[data-design^='glass-'] :is(.hdr,.menu,.mob,.car-viewport,.plate-wrap,.proj-card,.mini-card,.side-panel,.glass-card,.coop-mail,.social,.ce-block,.slide-cap,.btn-ghost,.hdr-cta,.rbtn,.car-ui,.design-switcher) { --surface-glass-blur: min(var(--glass-blur,20px),16px); }
+}
+
+@media (pointer:coarse) {
+  html[data-design^='glass-'] :is(.hdr,.menu,.mob,.car-viewport,.plate-wrap,.proj-card,.mini-card,.side-panel,.glass-card,.coop-mail,.social,.ce-block,.slide-cap,.btn-ghost,.hdr-cta,.rbtn,.car-ui,.design-switcher)::after {
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+  }
+}
+
+@media (prefers-reduced-motion:reduce) {
+  html[data-design^='glass-'] :is(.proj-card,.mini-card,.social,.coop-mail,.btn-ghost,.hdr-cta,.rbtn):hover { transform: none; }
+}
+
+@media (prefers-contrast:more) {
+  html[data-design^='glass-'] :is(.hdr,.menu,.mob,.car-viewport,.plate-wrap,.proj-card,.mini-card,.side-panel,.glass-card,.coop-mail,.social,.ce-block,.slide-cap,.btn-ghost,.hdr-cta,.rbtn,.car-ui,.design-switcher) { border-color: rgba(255,255,255,.55); }
+}

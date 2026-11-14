@@ -1,0 +1,85 @@
+{
+  "timestamp": "2026-11-11T12:30:00.510Z",
+  "scope": "Isolated renderer probe of the actual material stylesheet and displacement-map generator; separate from app route QA.",
+  "sourceFiles": [
+    "src/styles/glass-material.css",
+    "src/components/design/GlassEnvironment.tsx"
+  ],
+  "preferenceCombinations": [
+    {
+      "preference": "no-preference",
+      "material": "auto",
+      "pass": true,
+      "foregroundFilter": "none",
+      "backdrop": "saturate(1.6) blur(20px)",
+      "background": "rgba(19, 29, 41, 0.34)",
+      "edgeOpacity": "0.6",
+      "edgeFilter": "url(\"#liquid-refraction\")"
+    },
+    {
+      "preference": "no-preference",
+      "material": "glass",
+      "pass": true,
+      "foregroundFilter": "none",
+      "backdrop": "saturate(1.6) blur(20px)",
+      "background": "rgba(19, 29, 41, 0.34)",
+      "edgeOpacity": "0.6",
+      "edgeFilter": "url(\"#liquid-refraction\")"
+    },
+    {
+      "preference": "no-preference",
+      "material": "solid",
+      "pass": true,
+      "foregroundFilter": "none",
+      "backdrop": "none",
+      "background": "rgba(19, 29, 41, 0.97)",
+      "edgeOpacity": "0",
+      "edgeFilter": "none"
+    },
+    {
+      "preference": "reduce",
+      "material": "auto",
+      "pass": true,
+      "foregroundFilter": "none",
+      "backdrop": "none",
+      "background": "rgba(19, 29, 41, 0.97)",
+      "edgeOpacity": "0",
+      "edgeFilter": "none"
+    },
+    {
+      "preference": "reduce",
+      "material": "glass",
+      "pass": true,
+      "foregroundFilter": "none",
+      "backdrop": "saturate(1.6) blur(20px)",
+      "background": "rgba(19, 29, 41, 0.34)",
+      "edgeOpacity": "0.6",
+      "edgeFilter": "url(\"#liquid-refraction\")"
+    },
+    {
+      "preference": "reduce",
+      "material": "solid",
+      "pass": true,
+      "foregroundFilter": "none",
+      "backdrop": "none",
+      "background": "rgba(19, 29, 41, 0.97)",
+      "edgeOpacity": "0",
+      "edgeFilter": "none"
+    }
+  ],
+  "optical": {
+    "pass": true,
+    "changedPixels": 6171,
+    "changedCenterPixels": 0,
+    "width": 400,
+    "height": 240,
+    "centerInset": 12,
+    "maskWidth": "5px",
+    "before": "material-no-refraction.png",
+    "after": "material-edge-refraction.png",
+    "note": "Only the perimeter pseudo-element displacement filter is toggled; base backdrop blur and all foreground content remain identical. Tiny antialias/compositor differences are reported rather than hidden."
+  },
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+  "passed": 7,
+  "failed": 0
+}

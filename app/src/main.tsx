@@ -1,0 +1,14 @@
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import { BrowserRouter } from 'react-router-dom';
+import { MotionConfig } from 'motion/react';
+import App from './App';
+import { DesignProvider } from './components/design/DesignProvider';
+import './styles/tokens.css';
+import './styles/global.css';
+import './styles/liquid-glass.css';
+import './styles/glass-variants.css';
+import './styles/glass-material.css';
+import './styles/typography.css';
+import './styles/clear-buttons.css';
+ReactDOM.createRoot(document.getElementById('root')!).render(<React.StrictMode><BrowserRouter><DesignProvider><MotionConfig reducedMotion="user"><App/></MotionConfig></DesignProvider></BrowserRouter></React.StrictMode>);

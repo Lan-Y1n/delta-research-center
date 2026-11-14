@@ -1,0 +1,97 @@
+/* Role assignments from Stitch's clear/type revision; system fonts only. */
+html[data-design^='glass-'] {
+  --font-body: -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;
+  --font-academic: "Songti SC","STSong","SimSun","Noto Serif CJK SC",serif;
+  --font-geometric: "DengXian","PingFang SC","Microsoft YaHei",sans-serif;
+  --font-literary: Georgia,"Kaiti SC","STKaiti","KaiTi","Songti SC","SimSun",serif;
+  --font-engineering: "Bahnschrift","DIN Alternate","Arial Narrow","Helvetica Neue",sans-serif;
+  --font-code: "Consolas","Menlo","Monaco","Courier New","Microsoft YaHei",monospace;
+  --font-classic: Georgia,"Times New Roman","Songti SC","SimSun",serif;
+  --font-brand: var(--font-academic);
+  --font-heading: var(--font-academic);
+  --font-english: var(--font-code);
+  --font-metric: var(--font-engineering);
+  --font-quote: var(--font-literary);
+  --font-dossier: var(--font-academic);
+}
+html[data-design='glass-2'] {
+  --font-body: "DengXian","PingFang SC","Microsoft YaHei",-apple-system,sans-serif;
+  --font-english: var(--font-engineering);
+  --font-metric: var(--font-classic);
+}
+/* The third Stitch screen keeps its geometric headline, with the shared type roles. */
+html[data-design='glass-3'] {
+  --font-brand: var(--font-geometric);
+  --font-heading: var(--font-academic);
+  --font-english: var(--font-engineering);
+  --font-metric: var(--font-classic);
+  --font-dossier: var(--font-literary);
+}
+html[data-design^='glass-'] body {
+  font-family: var(--font-body);
+  font-optical-sizing: auto;
+}
+html[data-design^='glass-'] :is(.hero-title,.leader-name) {
+  font-family: var(--font-brand);
+  letter-spacing: -.02em;
+}
+html[data-design^='glass-'] :is(.sec-title,.p-title,.lc-name) {
+  font-family: var(--font-heading);
+  letter-spacing: -.018em;
+}
+html[data-design^='glass-'] .hero-title { line-height: 1.02; }
+html[data-design='glass-2'] .hero-title { font-weight: 400; }
+html[data-design^='glass-'] :is(.hero-sub,.proj-desc,.blk > p,.dirs p,.mini-card p,.about-right p,.coop-lede,.ce-block p,.foot-brand p,.fc-note p,.cr-v) {
+  font-family: var(--font-body);
+}
+html[data-design^='glass-'] :is(.hero-en,.leader-en,.brand-txt i,.fb-txt i) {
+  font-family: var(--font-english);
+  font-weight: 500;
+  letter-spacing: .18em;
+}
+html[data-design^='glass-'] :is(.eyebrow,.p-eyebrow,.sec-kicker,.side-kicker,.menu-head,.proj-code,.mp-code,.sc-k,.plate-idx,.cm-k,.foot-base) {
+  font-family: var(--font-code);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: .12em;
+}
+html[data-design^='glass-'] :is(.hero-stats dd,.prog-num,.mp-pct,.ll-index,.p-no,.car-hint b) {
+  font-family: var(--font-metric);
+  font-variant-numeric: lining-nums tabular-nums;
+  letter-spacing: -.02em;
+}
+html[data-design^='glass-'] :is(.plate-glyph,.plate-name-v,.sc-name) { font-family: var(--font-dossier); }
+html[data-design^='glass-'] .plate-meta b { font-family: var(--font-english); }
+html[data-design^='glass-'] .plate-meta i { font-family: var(--font-code); }
+html[data-design^='glass-'] .about-quote {
+  font-family: var(--font-quote);
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: .015em;
+  line-height: 1.5;
+}
+html[data-design='glass-1'] .hero-lede {
+  font-family: var(--font-quote);
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0;
+}
+html[data-design='glass-3'] .hero-lede { font-family: var(--font-quote); }
+html[data-design^='glass-'] .p-title i {
+  font-family: var(--font-classic);
+  font-style: italic;
+  letter-spacing: .025em;
+}
+html[data-design^='glass-'] :is(.nav-link,.btn,.hdr-cta,.copy-btn,.design-material-toggle,.design-option,.design-switcher-toggle,.mob a,.chips,.leader-tags) {
+  font-family: var(--font-body);
+  font-style: normal;
+}
+html[data-design^='glass-'] :is(.dirs b,.mini-card b,.fact h3,.ce-block b) {
+  font-family: var(--font-geometric);
+  font-weight: 500;
+}
+@media (max-width:680px) {
+  html[data-design^='glass-'] .hero-en { font-size: 10px; letter-spacing: .16em; }
+  html[data-design^='glass-'] .eyebrow { letter-spacing: .075em; }
+  html[data-design^='glass-'] .p-eyebrow { letter-spacing: .05em; }
+}

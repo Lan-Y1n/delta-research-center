@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.env
+.deploy-state/
+.deploy.lock/
+.env.new.*
+qa/*.log

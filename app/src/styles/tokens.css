@@ -1,0 +1,17 @@
+:root {
+  --bg: #000000;
+  --surface: rgba(255,255,255,.045);
+  --surface-hover: rgba(255,255,255,.06);
+  --text: #F5F5F7;
+  --muted: #A1A1A6;
+  --muted-2: #7C7C81;
+  --accent: #65C9F4;
+  --accent-soft: #AFE9FF;
+  --line: rgba(255,255,255,.09);
+  --line-strong: rgba(255,255,255,.20);
+  --success: #30D158;
+  --hdr-h: 54px;
+  --max: 1280px;
+  --ease: cubic-bezier(.32,.72,0,1);
+  --sans: -apple-system,BlinkMacSystemFont,"SF Pro Display","Helvetica Neue",Inter,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+}

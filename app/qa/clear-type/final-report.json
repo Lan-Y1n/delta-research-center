@@ -1,0 +1,3320 @@
+{
+  "baseURL": "http://127.0.0.1:18180",
+  "timestamp": "2026-11-11T12:56:28.1670757Z",
+  "scope": "Final result combining unchanged product checks with focused rerun of corrected font selector",
+  "results": [
+    {
+      "name": "glass-1 layout and screenshot 1440",
+      "pass": true,
+      "detail": {
+        "viewport": 1440,
+        "document": 1440,
+        "portraitRatio": 0.5625,
+        "hero": [
+          {
+            "className": "hero-title",
+            "top": 174.015625,
+            "bottom": 341.453125
+          },
+          {
+            "className": "hero-cta",
+            "top": 544.71875,
+            "bottom": 588.71875
+          },
+          {
+            "className": "hero-stats",
+            "top": 620.71875,
+            "bottom": 707.21875
+          },
+          {
+            "className": "hero-carousel",
+            "top": 104,
+            "bottom": 739.75
+          }
+        ]
+      }
+    },
+    {
+      "name": "glass-1 clear buttons normal and hover 1440",
+      "pass": true,
+      "detail": [
+        {
+          "normal": {
+            "className": "hdr-cta",
+            "text": "联络→",
+            "width": 71.5,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.02)",
+            "fillAlpha": 0.02,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          },
+          "hover": {
+            "className": "hdr-cta",
+            "text": "联络→",
+            "width": 71.5,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.03)",
+            "fillAlpha": 0.03,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          }
+        },
+        {
+          "normal": {
+            "className": "btn btn-solid ",
+            "text": "探索研究领域↗",
+            "width": 159,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.02)",
+            "fillAlpha": 0.02,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          },
+          "hover": {
+            "className": "btn btn-solid ",
+            "text": "探索研究领域↗",
+            "width": 163.77000427246094,
+            "height": 45.3199462890625,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.03)",
+            "fillAlpha": 0.03,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          }
+        },
+        {
+          "normal": {
+            "className": "btn btn-ghost ",
+            "text": "合作联络→",
+            "width": 131.21875,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.02)",
+            "fillAlpha": 0.02,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          },
+          "hover": {
+            "className": "btn btn-ghost ",
+            "text": "合作联络→",
+            "width": 135.1552734375,
+            "height": 45.3199462890625,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.03)",
+            "fillAlpha": 0.03,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          }
+        },
+        {
+          "normal": {
+            "className": "rbtn",
+            "text": "←",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.02)",
+            "fillAlpha": 0.02,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "none",
+            "beforeFilter": "none",
+            "edgeOpacity": "0"
+          },
+          "hover": {
+            "className": "rbtn",
+            "text": "←",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.03)",
+            "fillAlpha": 0.03,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "none",
+            "beforeFilter": "none",
+            "edgeOpacity": "0"
+          }
+        },
+        {
+          "normal": {
+            "className": "rbtn",
+            "text": "→",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.02)",
+            "fillAlpha": 0.02,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "none",
+            "beforeFilter": "none",
+            "edgeOpacity": "0"
+          },
+          "hover": {
+            "className": "rbtn",
+            "text": "→",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.03)",
+            "fillAlpha": 0.03,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "none",
+            "beforeFilter": "none",
+            "edgeOpacity": "0"
+          }
+        },
+        {
+          "normal": {
+            "className": "car-play",
+            "text": "Ⅱ",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.02)",
+            "fillAlpha": 0.02,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          },
+          "hover": {
+            "className": "car-play",
+            "text": "Ⅱ",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.03)",
+            "fillAlpha": 0.03,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          }
+        },
+        {
+          "normal": {
+            "className": "design-material-toggle",
+            "text": "始终玻璃",
+            "width": 62,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.02)",
+            "fillAlpha": 0.02,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          },
+          "hover": {
+            "className": "design-material-toggle",
+            "text": "始终玻璃",
+            "width": 62,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.03)",
+            "fillAlpha": 0.03,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          }
+        },
+        {
+          "normal": {
+            "className": "design-switcher-toggle",
+            "text": "−",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.02)",
+            "fillAlpha": 0.02,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          },
+          "hover": {
+            "className": "design-switcher-toggle",
+            "text": "−",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.03)",
+            "fillAlpha": 0.03,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          }
+        },
+        {
+          "normal": {
+            "className": "design-option is-selected",
+            "text": "01Liquid Glass · 方案 1",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.035)",
+            "fillAlpha": 0.035,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          },
+          "hover": {
+            "className": "design-option is-selected",
+            "text": "01Liquid Glass · 方案 1",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.035)",
+            "fillAlpha": 0.035,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          }
+        },
+        {
+          "normal": {
+            "className": "design-option",
+            "text": "02Liquid Glass · 方案 2",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.02)",
+            "fillAlpha": 0.02,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0"
+          },
+          "hover": {
+            "className": "design-option",
+            "text": "02Liquid Glass · 方案 2",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.03)",
+            "fillAlpha": 0.03,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0"
+          }
+        },
+        {
+          "normal": {
+            "className": "design-option",
+            "text": "03Liquid Glass · 方案 3",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.02)",
+            "fillAlpha": 0.02,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0"
+          },
+          "hover": {
+            "className": "design-option",
+            "text": "03Liquid Glass · 方案 3",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.03)",
+            "fillAlpha": 0.03,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0"
+          }
+        },
+        {
+          "normal": {
+            "className": "design-option",
+            "text": "DKeynote · 原版",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.02)",
+            "fillAlpha": 0.02,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0"
+          },
+          "hover": {
+            "className": "design-option",
+            "text": "DKeynote · 原版",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.03)",
+            "fillAlpha": 0.03,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "glass-1 layout and screenshot 390",
+      "pass": true,
+      "detail": {
+        "viewport": 390,
+        "document": 390,
+        "portraitRatio": 0.5625064626202048,
+        "hero": [
+          {
+            "className": "hero-title",
+            "top": 155.75,
+            "bottom": 253.65625
+          },
+          {
+            "className": "hero-cta",
+            "top": 449.90625,
+            "bottom": 493.90625
+          },
+          {
+            "className": "hero-stats",
+            "top": 525.90625,
+            "bottom": 698.90625
+          },
+          {
+            "className": "hero-carousel",
+            "top": 740.90625,
+            "bottom": 1431.09375
+          }
+        ]
+      }
+    },
+    {
+      "name": "glass-1 clear buttons normal and hover 390",
+      "pass": true,
+      "detail": [
+        {
+          "normal": {
+            "className": "burger ",
+            "text": "",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.02)",
+            "fillAlpha": 0.02,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          },
+          "hover": {
+            "className": "burger ",
+            "text": "",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.03)",
+            "fillAlpha": 0.03,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          }
+        },
+        {
+          "normal": {
+            "className": "btn btn-solid ",
+            "text": "探索研究领域↗",
+            "width": 138,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.02)",
+            "fillAlpha": 0.02,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          },
+          "hover": {
+            "className": "btn btn-solid ",
+            "text": "探索研究领域↗",
+            "width": 142.1400146484375,
+            "height": 45.32000732421875,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.03)",
+            "fillAlpha": 0.03,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          }
+        },
+        {
+          "normal": {
+            "className": "btn btn-ghost ",
+            "text": "合作联络→",
+            "width": 112.359375,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.02)",
+            "fillAlpha": 0.02,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          },
+          "hover": {
+            "className": "btn btn-ghost ",
+            "text": "合作联络→",
+            "width": 115.73016357421875,
+            "height": 45.32000732421875,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.03)",
+            "fillAlpha": 0.03,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          }
+        },
+        {
+          "normal": {
+            "className": "rbtn",
+            "text": "←",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.02)",
+            "fillAlpha": 0.02,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "none",
+            "beforeFilter": "none",
+            "edgeOpacity": "0"
+          },
+          "hover": {
+            "className": "rbtn",
+            "text": "←",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.03)",
+            "fillAlpha": 0.03,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "none",
+            "beforeFilter": "none",
+            "edgeOpacity": "0"
+          }
+        },
+        {
+          "normal": {
+            "className": "rbtn",
+            "text": "→",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.02)",
+            "fillAlpha": 0.02,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "none",
+            "beforeFilter": "none",
+            "edgeOpacity": "0"
+          },
+          "hover": {
+            "className": "rbtn",
+            "text": "→",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.03)",
+            "fillAlpha": 0.03,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "none",
+            "beforeFilter": "none",
+            "edgeOpacity": "0"
+          }
+        },
+        {
+          "normal": {
+            "className": "car-play",
+            "text": "Ⅱ",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.02)",
+            "fillAlpha": 0.02,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          },
+          "hover": {
+            "className": "car-play",
+            "text": "Ⅱ",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.03)",
+            "fillAlpha": 0.03,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          }
+        },
+        {
+          "normal": {
+            "className": "design-material-toggle",
+            "text": "始终玻璃",
+            "width": 54,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.02)",
+            "fillAlpha": 0.02,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          },
+          "hover": {
+            "className": "design-material-toggle",
+            "text": "始终玻璃",
+            "width": 54,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.03)",
+            "fillAlpha": 0.03,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          }
+        },
+        {
+          "normal": {
+            "className": "design-switcher-toggle",
+            "text": "−",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.02)",
+            "fillAlpha": 0.02,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          },
+          "hover": {
+            "className": "design-switcher-toggle",
+            "text": "−",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.03)",
+            "fillAlpha": 0.03,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          }
+        },
+        {
+          "normal": {
+            "className": "design-option is-selected",
+            "text": "01Liquid Glass · 方案 1",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.035)",
+            "fillAlpha": 0.035,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          },
+          "hover": {
+            "className": "design-option is-selected",
+            "text": "01Liquid Glass · 方案 1",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.035)",
+            "fillAlpha": 0.035,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          }
+        },
+        {
+          "normal": {
+            "className": "design-option",
+            "text": "02Liquid Glass · 方案 2",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.02)",
+            "fillAlpha": 0.02,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0"
+          },
+          "hover": {
+            "className": "design-option",
+            "text": "02Liquid Glass · 方案 2",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.03)",
+            "fillAlpha": 0.03,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0"
+          }
+        },
+        {
+          "normal": {
+            "className": "design-option",
+            "text": "03Liquid Glass · 方案 3",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.02)",
+            "fillAlpha": 0.02,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0"
+          },
+          "hover": {
+            "className": "design-option",
+            "text": "03Liquid Glass · 方案 3",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.03)",
+            "fillAlpha": 0.03,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0"
+          }
+        },
+        {
+          "normal": {
+            "className": "design-option",
+            "text": "DKeynote · 原版",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.02)",
+            "fillAlpha": 0.02,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0"
+          },
+          "hover": {
+            "className": "design-option",
+            "text": "DKeynote · 原版",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.03)",
+            "fillAlpha": 0.03,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "glass-1 mobile menu regression",
+      "pass": true
+    },
+    {
+      "name": "glass-1 rendered font hierarchy",
+      "pass": true,
+      "detail": {
+        "brand": {
+          "style": {
+            "family": "\"Songti SC\", STSong, SimSun, \"Noto Serif CJK SC\", serif",
+            "weight": "700",
+            "style": "normal"
+          },
+          "actual": [
+            {
+              "family": "STSong",
+              "postScriptName": "STSong",
+              "custom": false,
+              "glyphs": 3
+            }
+          ]
+        },
+        "body": {
+          "style": {
+            "family": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+            "weight": "400",
+            "style": "normal"
+          },
+          "actual": [
+            {
+              "family": "Microsoft YaHei",
+              "postScriptName": "MicrosoftYaHei",
+              "custom": false,
+              "glyphs": 58
+            }
+          ]
+        },
+        "english": {
+          "style": {
+            "family": "Consolas, Menlo, Monaco, \"Courier New\", \"Microsoft YaHei\", monospace",
+            "weight": "500",
+            "style": "normal"
+          },
+          "actual": [
+            {
+              "family": "Consolas",
+              "postScriptName": "Consolas",
+              "custom": false,
+              "glyphs": 21
+            }
+          ]
+        },
+        "label": {
+          "style": {
+            "family": "Consolas, Menlo, Monaco, \"Courier New\", \"Microsoft YaHei\", monospace",
+            "weight": "500",
+            "style": "normal"
+          },
+          "actual": [
+            {
+              "family": "Consolas",
+              "postScriptName": "Consolas",
+              "custom": false,
+              "glyphs": 30
+            }
+          ]
+        },
+        "digits": {
+          "style": {
+            "family": "Bahnschrift, \"DIN Alternate\", \"Arial Narrow\", \"Helvetica Neue\", sans-serif",
+            "weight": "400",
+            "style": "normal"
+          },
+          "actual": [
+            {
+              "family": "Bahnschrift",
+              "postScriptName": "Bahnschrift",
+              "custom": false,
+              "glyphs": 2
+            }
+          ]
+        },
+        "quote": {
+          "style": {
+            "family": "Georgia, \"Kaiti SC\", STKaiti, KaiTi, \"Songti SC\", SimSun, serif",
+            "weight": "400",
+            "style": "italic"
+          },
+          "actual": [
+            {
+              "family": "STKaiti",
+              "postScriptName": "STKaiti",
+              "custom": false,
+              "glyphs": 13
+            },
+            {
+              "family": "Georgia",
+              "postScriptName": "Georgia-Italic",
+              "custom": false,
+              "glyphs": 2
+            }
+          ]
+        },
+        "distinctRenderedFamilies": [
+          "STSong",
+          "Microsoft YaHei",
+          "Consolas",
+          "Bahnschrift",
+          "STKaiti",
+          "Georgia"
+        ]
+      }
+    },
+    {
+      "name": "glass-1 profile title font",
+      "pass": true,
+      "detail": {
+        "style": {
+          "family": "\"Songti SC\", STSong, SimSun, \"Noto Serif CJK SC\", serif",
+          "fontStyle": "normal"
+        },
+        "actual": [
+          {
+            "family": "STSong",
+            "postScriptName": "STSong",
+            "custom": false,
+            "glyphs": 2
+          }
+        ]
+      }
+    },
+    {
+      "name": "glass-2 layout and screenshot 1440",
+      "pass": true,
+      "detail": {
+        "viewport": 1440,
+        "document": 1440,
+        "portraitRatio": 0.5625,
+        "hero": [
+          {
+            "className": "hero-title",
+            "top": 205.34375,
+            "bottom": 336.0625
+          },
+          {
+            "className": "hero-cta",
+            "top": 530.390625,
+            "bottom": 574.390625
+          },
+          {
+            "className": "hero-stats",
+            "top": 602.390625,
+            "bottom": 677.640625
+          },
+          {
+            "className": "hero-carousel",
+            "top": 104,
+            "bottom": 739.75
+          }
+        ]
+      }
+    },
+    {
+      "name": "glass-2 clear buttons normal and hover 1440",
+      "pass": true,
+      "detail": [
+        {
+          "normal": {
+            "className": "hdr-cta",
+            "text": "联络→",
+            "width": 73,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.02)",
+            "fillAlpha": 0.02,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          },
+          "hover": {
+            "className": "hdr-cta",
+            "text": "联络→",
+            "width": 73,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.03)",
+            "fillAlpha": 0.03,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          }
+        },
+        {
+          "normal": {
+            "className": "btn btn-solid ",
+            "text": "探索研究领域↗",
+            "width": 152,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.02)",
+            "fillAlpha": 0.02,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          },
+          "hover": {
+            "className": "btn btn-solid ",
+            "text": "探索研究领域↗",
+            "width": 156.55999755859375,
+            "height": 45.3199462890625,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.03)",
+            "fillAlpha": 0.03,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          }
+        },
+        {
+          "normal": {
+            "className": "btn btn-ghost ",
+            "text": "合作联络→",
+            "width": 128,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.02)",
+            "fillAlpha": 0.02,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          },
+          "hover": {
+            "className": "btn btn-ghost ",
+            "text": "合作联络→",
+            "width": 131.8399658203125,
+            "height": 45.3199462890625,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.03)",
+            "fillAlpha": 0.03,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          }
+        },
+        {
+          "normal": {
+            "className": "rbtn",
+            "text": "←",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.02)",
+            "fillAlpha": 0.02,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "none",
+            "beforeFilter": "none",
+            "edgeOpacity": "0"
+          },
+          "hover": {
+            "className": "rbtn",
+            "text": "←",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.03)",
+            "fillAlpha": 0.03,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "none",
+            "beforeFilter": "none",
+            "edgeOpacity": "0"
+          }
+        },
+        {
+          "normal": {
+            "className": "rbtn",
+            "text": "→",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.02)",
+            "fillAlpha": 0.02,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "none",
+            "beforeFilter": "none",
+            "edgeOpacity": "0"
+          },
+          "hover": {
+            "className": "rbtn",
+            "text": "→",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.03)",
+            "fillAlpha": 0.03,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "none",
+            "beforeFilter": "none",
+            "edgeOpacity": "0"
+          }
+        },
+        {
+          "normal": {
+            "className": "car-play",
+            "text": "Ⅱ",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.02)",
+            "fillAlpha": 0.02,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          },
+          "hover": {
+            "className": "car-play",
+            "text": "Ⅱ",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.03)",
+            "fillAlpha": 0.03,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          }
+        },
+        {
+          "normal": {
+            "className": "design-material-toggle",
+            "text": "始终玻璃",
+            "width": 62,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.02)",
+            "fillAlpha": 0.02,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          },
+          "hover": {
+            "className": "design-material-toggle",
+            "text": "始终玻璃",
+            "width": 62,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.03)",
+            "fillAlpha": 0.03,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          }
+        },
+        {
+          "normal": {
+            "className": "design-switcher-toggle",
+            "text": "−",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.02)",
+            "fillAlpha": 0.02,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          },
+          "hover": {
+            "className": "design-switcher-toggle",
+            "text": "−",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.03)",
+            "fillAlpha": 0.03,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          }
+        },
+        {
+          "normal": {
+            "className": "design-option",
+            "text": "01Liquid Glass · 方案 1",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.02)",
+            "fillAlpha": 0.02,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0"
+          },
+          "hover": {
+            "className": "design-option",
+            "text": "01Liquid Glass · 方案 1",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.03)",
+            "fillAlpha": 0.03,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0"
+          }
+        },
+        {
+          "normal": {
+            "className": "design-option is-selected",
+            "text": "02Liquid Glass · 方案 2",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.035)",
+            "fillAlpha": 0.035,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          },
+          "hover": {
+            "className": "design-option is-selected",
+            "text": "02Liquid Glass · 方案 2",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.035)",
+            "fillAlpha": 0.035,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          }
+        },
+        {
+          "normal": {
+            "className": "design-option",
+            "text": "03Liquid Glass · 方案 3",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.02)",
+            "fillAlpha": 0.02,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0"
+          },
+          "hover": {
+            "className": "design-option",
+            "text": "03Liquid Glass · 方案 3",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.03)",
+            "fillAlpha": 0.03,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0"
+          }
+        },
+        {
+          "normal": {
+            "className": "design-option",
+            "text": "DKeynote · 原版",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.02)",
+            "fillAlpha": 0.02,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0"
+          },
+          "hover": {
+            "className": "design-option",
+            "text": "DKeynote · 原版",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.03)",
+            "fillAlpha": 0.03,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "glass-2 layout and screenshot 390",
+      "pass": true,
+      "detail": {
+        "viewport": 390,
+        "document": 390,
+        "portraitRatio": 0.5625064626202048,
+        "hero": [
+          {
+            "className": "hero-title",
+            "top": 157.25,
+            "bottom": 252.6875
+          },
+          {
+            "className": "hero-cta",
+            "top": 435.625,
+            "bottom": 479.625
+          },
+          {
+            "className": "hero-stats",
+            "top": 507.625,
+            "bottom": 660.125
+          },
+          {
+            "className": "hero-carousel",
+            "top": 706.125,
+            "bottom": 1396.3125
+          }
+        ]
+      }
+    },
+    {
+      "name": "glass-2 clear buttons normal and hover 390",
+      "pass": true,
+      "detail": [
+        {
+          "normal": {
+            "className": "burger ",
+            "text": "",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.02)",
+            "fillAlpha": 0.02,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          },
+          "hover": {
+            "className": "burger ",
+            "text": "",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.03)",
+            "fillAlpha": 0.03,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          }
+        },
+        {
+          "normal": {
+            "className": "btn btn-solid ",
+            "text": "探索研究领域↗",
+            "width": 138,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.02)",
+            "fillAlpha": 0.02,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          },
+          "hover": {
+            "className": "btn btn-solid ",
+            "text": "探索研究领域↗",
+            "width": 142.1400146484375,
+            "height": 45.32000732421875,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.03)",
+            "fillAlpha": 0.03,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          }
+        },
+        {
+          "normal": {
+            "className": "btn btn-ghost ",
+            "text": "合作联络→",
+            "width": 114,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.02)",
+            "fillAlpha": 0.02,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          },
+          "hover": {
+            "className": "btn btn-ghost ",
+            "text": "合作联络→",
+            "width": 117.42001342773438,
+            "height": 45.32000732421875,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.03)",
+            "fillAlpha": 0.03,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          }
+        },
+        {
+          "normal": {
+            "className": "rbtn",
+            "text": "←",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.02)",
+            "fillAlpha": 0.02,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "none",
+            "beforeFilter": "none",
+            "edgeOpacity": "0"
+          },
+          "hover": {
+            "className": "rbtn",
+            "text": "←",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.03)",
+            "fillAlpha": 0.03,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "none",
+            "beforeFilter": "none",
+            "edgeOpacity": "0"
+          }
+        },
+        {
+          "normal": {
+            "className": "rbtn",
+            "text": "→",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.02)",
+            "fillAlpha": 0.02,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "none",
+            "beforeFilter": "none",
+            "edgeOpacity": "0"
+          },
+          "hover": {
+            "className": "rbtn",
+            "text": "→",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.03)",
+            "fillAlpha": 0.03,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "none",
+            "beforeFilter": "none",
+            "edgeOpacity": "0"
+          }
+        },
+        {
+          "normal": {
+            "className": "car-play",
+            "text": "Ⅱ",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.02)",
+            "fillAlpha": 0.02,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          },
+          "hover": {
+            "className": "car-play",
+            "text": "Ⅱ",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.03)",
+            "fillAlpha": 0.03,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          }
+        },
+        {
+          "normal": {
+            "className": "design-material-toggle",
+            "text": "始终玻璃",
+            "width": 54,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.02)",
+            "fillAlpha": 0.02,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          },
+          "hover": {
+            "className": "design-material-toggle",
+            "text": "始终玻璃",
+            "width": 54,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.03)",
+            "fillAlpha": 0.03,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          }
+        },
+        {
+          "normal": {
+            "className": "design-switcher-toggle",
+            "text": "−",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.02)",
+            "fillAlpha": 0.02,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          },
+          "hover": {
+            "className": "design-switcher-toggle",
+            "text": "−",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.03)",
+            "fillAlpha": 0.03,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          }
+        },
+        {
+          "normal": {
+            "className": "design-option",
+            "text": "01Liquid Glass · 方案 1",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.02)",
+            "fillAlpha": 0.02,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0"
+          },
+          "hover": {
+            "className": "design-option",
+            "text": "01Liquid Glass · 方案 1",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.03)",
+            "fillAlpha": 0.03,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0"
+          }
+        },
+        {
+          "normal": {
+            "className": "design-option is-selected",
+            "text": "02Liquid Glass · 方案 2",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.035)",
+            "fillAlpha": 0.035,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          },
+          "hover": {
+            "className": "design-option is-selected",
+            "text": "02Liquid Glass · 方案 2",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.035)",
+            "fillAlpha": 0.035,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          }
+        },
+        {
+          "normal": {
+            "className": "design-option",
+            "text": "03Liquid Glass · 方案 3",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.02)",
+            "fillAlpha": 0.02,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0"
+          },
+          "hover": {
+            "className": "design-option",
+            "text": "03Liquid Glass · 方案 3",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.03)",
+            "fillAlpha": 0.03,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0"
+          }
+        },
+        {
+          "normal": {
+            "className": "design-option",
+            "text": "DKeynote · 原版",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.02)",
+            "fillAlpha": 0.02,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0"
+          },
+          "hover": {
+            "className": "design-option",
+            "text": "DKeynote · 原版",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.03)",
+            "fillAlpha": 0.03,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "glass-2 mobile menu regression",
+      "pass": true
+    },
+    {
+      "name": "glass-2 rendered font hierarchy",
+      "pass": true,
+      "detail": {
+        "brand": {
+          "style": {
+            "family": "\"Songti SC\", STSong, SimSun, \"Noto Serif CJK SC\", serif",
+            "weight": "400",
+            "style": "normal"
+          },
+          "actual": [
+            {
+              "family": "STSong",
+              "postScriptName": "STSong",
+              "custom": false,
+              "glyphs": 3
+            }
+          ]
+        },
+        "body": {
+          "style": {
+            "family": "DengXian, \"PingFang SC\", \"Microsoft YaHei\", -apple-system, sans-serif",
+            "weight": "300",
+            "style": "normal"
+          },
+          "actual": [
+            {
+              "family": "DengXian Light",
+              "postScriptName": "DengXian-Light",
+              "custom": false,
+              "glyphs": 58
+            }
+          ]
+        },
+        "english": {
+          "style": {
+            "family": "Bahnschrift, \"DIN Alternate\", \"Arial Narrow\", \"Helvetica Neue\", sans-serif",
+            "weight": "500",
+            "style": "normal"
+          },
+          "actual": [
+            {
+              "family": "Bahnschrift",
+              "postScriptName": "Bahnschrift-SemiBold",
+              "custom": false,
+              "glyphs": 21
+            }
+          ]
+        },
+        "label": {
+          "style": {
+            "family": "Consolas, Menlo, Monaco, \"Courier New\", \"Microsoft YaHei\", monospace",
+            "weight": "500",
+            "style": "normal"
+          },
+          "actual": [
+            {
+              "family": "Consolas",
+              "postScriptName": "Consolas",
+              "custom": false,
+              "glyphs": 30
+            }
+          ]
+        },
+        "digits": {
+          "style": {
+            "family": "Georgia, \"Times New Roman\", \"Songti SC\", SimSun, serif",
+            "weight": "300",
+            "style": "normal"
+          },
+          "actual": [
+            {
+              "family": "Georgia",
+              "postScriptName": "Georgia",
+              "custom": false,
+              "glyphs": 2
+            }
+          ]
+        },
+        "quote": {
+          "style": {
+            "family": "Georgia, \"Kaiti SC\", STKaiti, KaiTi, \"Songti SC\", SimSun, serif",
+            "weight": "400",
+            "style": "italic"
+          },
+          "actual": [
+            {
+              "family": "STKaiti",
+              "postScriptName": "STKaiti",
+              "custom": false,
+              "glyphs": 13
+            },
+            {
+              "family": "Georgia",
+              "postScriptName": "Georgia-Italic",
+              "custom": false,
+              "glyphs": 2
+            }
+          ]
+        },
+        "distinctRenderedFamilies": [
+          "STSong",
+          "DengXian Light",
+          "Bahnschrift",
+          "Consolas",
+          "Georgia",
+          "STKaiti"
+        ]
+      }
+    },
+    {
+      "name": "glass-2 profile title font",
+      "pass": true,
+      "detail": {
+        "style": {
+          "family": "\"Songti SC\", STSong, SimSun, \"Noto Serif CJK SC\", serif",
+          "fontStyle": "normal"
+        },
+        "actual": [
+          {
+            "family": "STSong",
+            "postScriptName": "STSong",
+            "custom": false,
+            "glyphs": 2
+          }
+        ]
+      }
+    },
+    {
+      "name": "glass-3 layout and screenshot 1440",
+      "pass": true,
+      "detail": {
+        "viewport": 1440,
+        "document": 1440,
+        "portraitRatio": 0.5625,
+        "hero": [
+          {
+            "className": "hero-title",
+            "top": 185.6875,
+            "bottom": 341.34375
+          },
+          {
+            "className": "hero-cta",
+            "top": 542.0625,
+            "bottom": 586.0625
+          },
+          {
+            "className": "hero-stats",
+            "top": 620.0625,
+            "bottom": 702.3125
+          },
+          {
+            "className": "hero-carousel",
+            "top": 104,
+            "bottom": 739.75
+          }
+        ]
+      }
+    },
+    {
+      "name": "glass-3 clear buttons normal and hover 1440",
+      "pass": true,
+      "detail": [
+        {
+          "normal": {
+            "className": "hdr-cta",
+            "text": "联络→",
+            "width": 71.5,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.02)",
+            "fillAlpha": 0.02,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          },
+          "hover": {
+            "className": "hdr-cta",
+            "text": "联络→",
+            "width": 71.5,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.03)",
+            "fillAlpha": 0.03,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          }
+        },
+        {
+          "normal": {
+            "className": "btn btn-solid ",
+            "text": "探索研究领域↗",
+            "width": 159,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.02)",
+            "fillAlpha": 0.02,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          },
+          "hover": {
+            "className": "btn btn-solid ",
+            "text": "探索研究领域↗",
+            "width": 163.77000427246094,
+            "height": 45.3199462890625,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.03)",
+            "fillAlpha": 0.03,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          }
+        },
+        {
+          "normal": {
+            "className": "btn btn-ghost ",
+            "text": "合作联络→",
+            "width": 131.21875,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.02)",
+            "fillAlpha": 0.02,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          },
+          "hover": {
+            "className": "btn btn-ghost ",
+            "text": "合作联络→",
+            "width": 135.1552734375,
+            "height": 45.3199462890625,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.03)",
+            "fillAlpha": 0.03,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          }
+        },
+        {
+          "normal": {
+            "className": "rbtn",
+            "text": "←",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.02)",
+            "fillAlpha": 0.02,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "none",
+            "beforeFilter": "none",
+            "edgeOpacity": "0"
+          },
+          "hover": {
+            "className": "rbtn",
+            "text": "←",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.03)",
+            "fillAlpha": 0.03,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "none",
+            "beforeFilter": "none",
+            "edgeOpacity": "0"
+          }
+        },
+        {
+          "normal": {
+            "className": "rbtn",
+            "text": "→",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.02)",
+            "fillAlpha": 0.02,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "none",
+            "beforeFilter": "none",
+            "edgeOpacity": "0"
+          },
+          "hover": {
+            "className": "rbtn",
+            "text": "→",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.03)",
+            "fillAlpha": 0.03,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "none",
+            "beforeFilter": "none",
+            "edgeOpacity": "0"
+          }
+        },
+        {
+          "normal": {
+            "className": "car-play",
+            "text": "Ⅱ",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.02)",
+            "fillAlpha": 0.02,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          },
+          "hover": {
+            "className": "car-play",
+            "text": "Ⅱ",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.03)",
+            "fillAlpha": 0.03,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          }
+        },
+        {
+          "normal": {
+            "className": "design-material-toggle",
+            "text": "始终玻璃",
+            "width": 62,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.02)",
+            "fillAlpha": 0.02,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          },
+          "hover": {
+            "className": "design-material-toggle",
+            "text": "始终玻璃",
+            "width": 62,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.03)",
+            "fillAlpha": 0.03,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          }
+        },
+        {
+          "normal": {
+            "className": "design-switcher-toggle",
+            "text": "−",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.02)",
+            "fillAlpha": 0.02,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          },
+          "hover": {
+            "className": "design-switcher-toggle",
+            "text": "−",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.03)",
+            "fillAlpha": 0.03,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          }
+        },
+        {
+          "normal": {
+            "className": "design-option",
+            "text": "01Liquid Glass · 方案 1",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.02)",
+            "fillAlpha": 0.02,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0"
+          },
+          "hover": {
+            "className": "design-option",
+            "text": "01Liquid Glass · 方案 1",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.03)",
+            "fillAlpha": 0.03,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0"
+          }
+        },
+        {
+          "normal": {
+            "className": "design-option",
+            "text": "02Liquid Glass · 方案 2",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.02)",
+            "fillAlpha": 0.02,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0"
+          },
+          "hover": {
+            "className": "design-option",
+            "text": "02Liquid Glass · 方案 2",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.03)",
+            "fillAlpha": 0.03,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0"
+          }
+        },
+        {
+          "normal": {
+            "className": "design-option is-selected",
+            "text": "03Liquid Glass · 方案 3",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.035)",
+            "fillAlpha": 0.035,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          },
+          "hover": {
+            "className": "design-option is-selected",
+            "text": "03Liquid Glass · 方案 3",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.035)",
+            "fillAlpha": 0.035,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          }
+        },
+        {
+          "normal": {
+            "className": "design-option",
+            "text": "DKeynote · 原版",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.02)",
+            "fillAlpha": 0.02,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0"
+          },
+          "hover": {
+            "className": "design-option",
+            "text": "DKeynote · 原版",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.03)",
+            "fillAlpha": 0.03,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "glass-3 layout and screenshot 390",
+      "pass": true,
+      "detail": {
+        "viewport": 390,
+        "document": 390,
+        "portraitRatio": 0.5625064626202048,
+        "hero": [
+          {
+            "className": "hero-title",
+            "top": 162.25,
+            "bottom": 260.09375
+          },
+          {
+            "className": "hero-cta",
+            "top": 454.109375,
+            "bottom": 498.109375
+          },
+          {
+            "className": "hero-stats",
+            "top": 532.109375,
+            "bottom": 693.609375
+          },
+          {
+            "className": "hero-carousel",
+            "top": 739.609375,
+            "bottom": 1429.796875
+          }
+        ]
+      }
+    },
+    {
+      "name": "glass-3 clear buttons normal and hover 390",
+      "pass": true,
+      "detail": [
+        {
+          "normal": {
+            "className": "burger ",
+            "text": "",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.02)",
+            "fillAlpha": 0.02,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          },
+          "hover": {
+            "className": "burger ",
+            "text": "",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.03)",
+            "fillAlpha": 0.03,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          }
+        },
+        {
+          "normal": {
+            "className": "btn btn-solid ",
+            "text": "探索研究领域↗",
+            "width": 145,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.02)",
+            "fillAlpha": 0.02,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          },
+          "hover": {
+            "className": "btn btn-solid ",
+            "text": "探索研究领域↗",
+            "width": 149.3499755859375,
+            "height": 45.32000732421875,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.03)",
+            "fillAlpha": 0.03,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          }
+        },
+        {
+          "normal": {
+            "className": "btn btn-ghost ",
+            "text": "合作联络→",
+            "width": 117.21875,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.02)",
+            "fillAlpha": 0.02,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          },
+          "hover": {
+            "className": "btn btn-ghost ",
+            "text": "合作联络→",
+            "width": 120.73532104492188,
+            "height": 45.32000732421875,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.03)",
+            "fillAlpha": 0.03,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          }
+        },
+        {
+          "normal": {
+            "className": "rbtn",
+            "text": "←",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.02)",
+            "fillAlpha": 0.02,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "none",
+            "beforeFilter": "none",
+            "edgeOpacity": "0"
+          },
+          "hover": {
+            "className": "rbtn",
+            "text": "←",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.03)",
+            "fillAlpha": 0.03,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "none",
+            "beforeFilter": "none",
+            "edgeOpacity": "0"
+          }
+        },
+        {
+          "normal": {
+            "className": "rbtn",
+            "text": "→",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.02)",
+            "fillAlpha": 0.02,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "none",
+            "beforeFilter": "none",
+            "edgeOpacity": "0"
+          },
+          "hover": {
+            "className": "rbtn",
+            "text": "→",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.03)",
+            "fillAlpha": 0.03,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "none",
+            "beforeFilter": "none",
+            "edgeOpacity": "0"
+          }
+        },
+        {
+          "normal": {
+            "className": "car-play",
+            "text": "Ⅱ",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.02)",
+            "fillAlpha": 0.02,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          },
+          "hover": {
+            "className": "car-play",
+            "text": "Ⅱ",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.03)",
+            "fillAlpha": 0.03,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          }
+        },
+        {
+          "normal": {
+            "className": "design-material-toggle",
+            "text": "始终玻璃",
+            "width": 54,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.02)",
+            "fillAlpha": 0.02,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          },
+          "hover": {
+            "className": "design-material-toggle",
+            "text": "始终玻璃",
+            "width": 54,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.03)",
+            "fillAlpha": 0.03,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          }
+        },
+        {
+          "normal": {
+            "className": "design-switcher-toggle",
+            "text": "−",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.02)",
+            "fillAlpha": 0.02,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          },
+          "hover": {
+            "className": "design-switcher-toggle",
+            "text": "−",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.03)",
+            "fillAlpha": 0.03,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          }
+        },
+        {
+          "normal": {
+            "className": "design-option",
+            "text": "01Liquid Glass · 方案 1",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.02)",
+            "fillAlpha": 0.02,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0"
+          },
+          "hover": {
+            "className": "design-option",
+            "text": "01Liquid Glass · 方案 1",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.03)",
+            "fillAlpha": 0.03,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0"
+          }
+        },
+        {
+          "normal": {
+            "className": "design-option",
+            "text": "02Liquid Glass · 方案 2",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.02)",
+            "fillAlpha": 0.02,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0"
+          },
+          "hover": {
+            "className": "design-option",
+            "text": "02Liquid Glass · 方案 2",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.03)",
+            "fillAlpha": 0.03,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0"
+          }
+        },
+        {
+          "normal": {
+            "className": "design-option is-selected",
+            "text": "03Liquid Glass · 方案 3",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.035)",
+            "fillAlpha": 0.035,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          },
+          "hover": {
+            "className": "design-option is-selected",
+            "text": "03Liquid Glass · 方案 3",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.035)",
+            "fillAlpha": 0.035,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          }
+        },
+        {
+          "normal": {
+            "className": "design-option",
+            "text": "DKeynote · 原版",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.02)",
+            "fillAlpha": 0.02,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0"
+          },
+          "hover": {
+            "className": "design-option",
+            "text": "DKeynote · 原版",
+            "width": 44,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.03)",
+            "fillAlpha": 0.03,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "glass-3 mobile menu regression",
+      "pass": true
+    },
+    {
+      "name": "glass-3 rendered font hierarchy",
+      "pass": true,
+      "detail": {
+        "brand": {
+          "style": {
+            "family": "DengXian, \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+            "weight": "700",
+            "style": "normal"
+          },
+          "actual": [
+            {
+              "family": "DengXian",
+              "postScriptName": "DengXian-Bold",
+              "custom": false,
+              "glyphs": 3
+            }
+          ]
+        },
+        "body": {
+          "style": {
+            "family": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+            "weight": "400",
+            "style": "normal"
+          },
+          "actual": [
+            {
+              "family": "Microsoft YaHei",
+              "postScriptName": "MicrosoftYaHei",
+              "custom": false,
+              "glyphs": 58
+            }
+          ]
+        },
+        "english": {
+          "style": {
+            "family": "Bahnschrift, \"DIN Alternate\", \"Arial Narrow\", \"Helvetica Neue\", sans-serif",
+            "weight": "500",
+            "style": "normal"
+          },
+          "actual": [
+            {
+              "family": "Bahnschrift",
+              "postScriptName": "Bahnschrift-SemiBold",
+              "custom": false,
+              "glyphs": 21
+            }
+          ]
+        },
+        "label": {
+          "style": {
+            "family": "Consolas, Menlo, Monaco, \"Courier New\", \"Microsoft YaHei\", monospace",
+            "weight": "600",
+            "style": "normal"
+          },
+          "actual": [
+            {
+              "family": "Consolas",
+              "postScriptName": "Consolas-Bold",
+              "custom": false,
+              "glyphs": 30
+            }
+          ]
+        },
+        "digits": {
+          "style": {
+            "family": "Georgia, \"Times New Roman\", \"Songti SC\", SimSun, serif",
+            "weight": "600",
+            "style": "normal"
+          },
+          "actual": [
+            {
+              "family": "Georgia",
+              "postScriptName": "Georgia-Bold",
+              "custom": false,
+              "glyphs": 2
+            }
+          ]
+        },
+        "quote": {
+          "style": {
+            "family": "Georgia, \"Kaiti SC\", STKaiti, KaiTi, \"Songti SC\", SimSun, serif",
+            "weight": "400",
+            "style": "italic"
+          },
+          "actual": [
+            {
+              "family": "STKaiti",
+              "postScriptName": "STKaiti",
+              "custom": false,
+              "glyphs": 13
+            },
+            {
+              "family": "Georgia",
+              "postScriptName": "Georgia-Italic",
+              "custom": false,
+              "glyphs": 2
+            }
+          ]
+        },
+        "distinctRenderedFamilies": [
+          "DengXian",
+          "Microsoft YaHei",
+          "Bahnschrift",
+          "Consolas",
+          "Georgia",
+          "STKaiti"
+        ]
+      }
+    },
+    {
+      "name": "glass-3 profile title font",
+      "pass": true,
+      "detail": {
+        "style": {
+          "family": "DengXian, \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+          "fontStyle": "normal"
+        },
+        "actual": [
+          {
+            "family": "DengXian",
+            "postScriptName": "DengXian-Bold",
+            "custom": false,
+            "glyphs": 2
+          }
+        ]
+      }
+    },
+    {
+      "name": "copy buttons remain clear and copy correctly",
+      "pass": true
+    },
+    {
+      "name": "button material accessibility and explicit override",
+      "pass": true,
+      "detail": [
+        {
+          "preference": "reduce",
+          "material": "auto",
+          "button": {
+            "className": "btn btn-solid ",
+            "text": "探索研究领域↗",
+            "width": 159,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(21, 23, 28, 0.97)",
+            "fillAlpha": 0.97,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "none",
+            "maxBlur": 0,
+            "foregroundFilter": "none",
+            "edgeFilter": "none",
+            "beforeFilter": "none",
+            "edgeOpacity": "0"
+          }
+        },
+        {
+          "preference": "reduce",
+          "material": "glass",
+          "button": {
+            "className": "btn btn-solid ",
+            "text": "探索研究领域↗",
+            "width": 159,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(255, 255, 255, 0.02)",
+            "fillAlpha": 0.02,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "saturate(1.35) blur(0.8px)",
+            "maxBlur": 0.8,
+            "foregroundFilter": "none",
+            "edgeFilter": "url(\"#liquid-refraction\")",
+            "beforeFilter": "none",
+            "edgeOpacity": "0.68"
+          }
+        },
+        {
+          "preference": "no-preference",
+          "material": "solid",
+          "button": {
+            "className": "btn btn-solid ",
+            "text": "探索研究领域↗",
+            "width": 159,
+            "height": 44,
+            "visible": true,
+            "background": "rgba(21, 23, 28, 0.97)",
+            "fillAlpha": 0.97,
+            "backgroundImage": "none",
+            "gradientColors": [],
+            "backdrop": "none",
+            "maxBlur": 0,
+            "foregroundFilter": "none",
+            "edgeFilter": "none",
+            "beforeFilter": "none",
+            "edgeOpacity": "0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "clear lens preserves visible background detail",
+      "pass": true,
+      "detail": {
+        "backgroundDeviation": 26.03500274978205,
+        "glassDeviation": 24.859322598603242,
+        "detailPreservation": 0.9548423265986155,
+        "measurement": "Standard deviation of visible backdrop luminance in the interior top band; excludes text and perimeter."
+      }
+    },
+    {
+      "name": "no external runtime asset requests",
+      "pass": true
+    },
+    {
+      "name": "no failed requests",
+      "pass": true
+    },
+    {
+      "name": "no console or runtime errors",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "failedRequests": [],
+  "externalRequests": [],
+  "passed": 27,
+  "failed": 0,
+  "initialReport": "initial-report.json",
+  "fontRerunReport": "font-report.json",
+  "resolvedTestIssue": "Initial font check used a non-unique .hero-stats dd locator. Changed to first statistic DD and reran all six font/profile checks. Application source did not change."
+}

@@ -1,0 +1,85 @@
+@import url("theme-d.css");
+
+/* =====================================================================
+   方案 E · FROSTED STUDIO / 磨砂工作室
+   在 D 的骨架上：抬亮一档底色、加大磨砂厚度、圆角收到 20-24、
+   主按钮换成 Apple 蓝实心，字号略收、留白更满
+   ===================================================================== */
+
+:root {
+  --bg: #0B0C10;
+  --bg2: #101218;
+  --panel: rgba(255, 255, 255, .06);
+  --txt: #F2F2F7;
+  --dim: #9C9CA4;
+  --acc: #6FC6F5;
+  --acc2: #C3EEFF;
+  --line: rgba(255, 255, 255, .08);
+  --line-2: rgba(255, 255, 255, .18);
+  --max: 1240px;
+}
+
+body {
+  background:
+    radial-gradient(1100px 700px at 76% -10%, rgba(111, 198, 245, .16), transparent 66%),
+    radial-gradient(900px 700px at 10% 8%, rgba(150, 170, 220, .10), transparent 70%),
+    linear-gradient(180deg, #0C0D12 0%, #08090D 60%, #050608 100%);
+  background-attachment: fixed;
+}
+body::before { display: none; }
+
+.hdr { background: rgba(14, 15, 20, .60); }
+.hdr.is-scrolled { background: rgba(12, 13, 18, .82); }
+
+/* 磨砂面板通用：更厚的模糊 + 内发光 */
+.menu, .slide-cap, .demo-switch, #toast, .mini-card, .side-panel, .social, .coop-mail, .org, .proj-card {
+  -webkit-backdrop-filter: saturate(170%) blur(26px);
+  backdrop-filter: saturate(170%) blur(26px);
+}
+
+/* hero 字号收一点、行距更松 */
+.hero-in { padding: 96px 0 64px; gap: min(6.4vw, 84px); }
+.hero-title { font-size: clamp(54px, 5.8vw, 96px); line-height: 1.02; letter-spacing: -.04em; }
+.hero-lede { margin-top: 26px; font-size: clamp(18px, 1.55vw, 22px); font-weight: 500; line-height: 1.5; }
+.hero-stats { margin-top: 46px; }
+.hero-stats b, .hero-stats .num { font-size: clamp(28px, 2.3vw, 36px); }
+
+/* 主按钮 → Apple 蓝实心 */
+.btn.btn-solid, .hero-cta a.btn-solid, .leader-cta a.btn-solid, .lc-btn {
+  background: linear-gradient(180deg, #7FD4FA, #4FA9DD);
+  color: #04222F;
+  border-color: rgba(200, 240, 255, .45);
+  box-shadow: 0 10px 30px -14px rgba(111, 198, 245, .8), inset 0 1px 0 rgba(255, 255, 255, .4);
+}
+.btn.btn-solid:hover, .hero-cta a.btn-solid:hover { background: linear-gradient(180deg, #93DDFC, #5FB5E6); }
+.btn, .hero-cta a, .leader-cta a { height: 44px; border-radius: 999px; }
+
+/* 圆角统一收到 24 */
+.car-frame, .car-viewport, .plate, .plate::after, .slide-hover { border-radius: 24px; }
+.car-viewport { height: clamp(340px, 60vh, 540px); }
+.slide-cap { border-radius: 18px; bottom: 12px; left: 12px; right: 12px; }
+.proj-card, .mini-card, .side-panel, .org, .coop-mail, .social { border-radius: 22px; }
+.proj-card { background: linear-gradient(165deg, rgba(255, 255, 255, .075), rgba(255, 255, 255, .025)); padding: 26px; }
+.proj-card:hover { background: linear-gradient(165deg, rgba(255, 255, 255, .10), rgba(255, 255, 255, .035)); }
+
+/* 更柔和的大投影，营造“浮起来”的层次 */
+.car-frame { box-shadow: 0 60px 120px -70px rgba(0, 0, 0, 1), 0 0 100px -46px rgba(111, 198, 245, .35); }
+
+/* 段落标题去掉过重的字重感 */
+.sec-title { font-weight: 700; letter-spacing: -.028em; }
+.p-title { letter-spacing: -.03em; }
+.leader-name { letter-spacing: -.03em; }
+
+/* 分区之间加大空气感 */
+.sec { padding: clamp(100px, 12vw, 168px) 0; }
+.blk { margin-bottom: 48px; }
+.field-body { padding-top: 56px; }
+
+/* 卡片 hover 抬升更明显但更慢 */
+.proj-card, .mini-card, .social { transition: transform .6s cubic-bezier(.32, .72, 0, 1), background .6s, border-color .6s, box-shadow .6s; }
+.proj-card:hover { transform: translateY(-8px); }
+
+@media (max-width: 680px) {
+  .car-viewport, .car-frame, .plate, .plate::after { border-radius: 20px; }
+  .proj-card, .mini-card, .side-panel, .coop-mail { border-radius: 18px; }
+}

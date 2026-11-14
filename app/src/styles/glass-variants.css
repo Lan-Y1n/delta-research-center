@@ -1,0 +1,138 @@
+/* Scoped translations of Stitch glass-2-revision.html and glass-3-revision.html. */
+html[data-design='glass-2'] {
+  --bg: #000;
+  --text: #e1e2ea;
+  --muted: #c0c7d1;
+  --muted-2: #8a919b;
+  --accent: #94ccff;
+  --accent-soft: #aacbe2;
+  --glass-stage-bg: #000;
+  --glass-fill: rgba(14,23,38,.46);
+  --glass-border: rgba(220,237,255,.19);
+  --glass-blur: 30px;
+  --glass-saturate: 165%;
+  --glass-shadow: 0 28px 64px -20px rgba(0,0,0,.85);
+  --glass-glint: rgba(255,255,255,.09);
+  --glass-refraction-opacity: .52;
+  --glass-solid-fill: rgba(14,23,38,.98);
+}
+html[data-design='glass-2'] .hero-in { grid-template-columns: minmax(0,1.16fr) minmax(0,.84fr); gap: clamp(50px,7vw,108px); }
+html[data-design='glass-2'] .hero-brand { max-width: 620px; }
+html[data-design='glass-2'] .eyebrow { color: #aacbe2; font-size: 11px; letter-spacing: .13em; }
+html[data-design='glass-2'] .hero-title { font-size: clamp(56px,4.45vw,72px); font-weight: 300; line-height: 1.08; letter-spacing: -.035em; margin-top: 20px; }
+html[data-design='glass-2'] .hero-title span { background: none; color: #e1e2ea; -webkit-text-fill-color: currentColor; }
+html[data-design='glass-2'] .hero-en { color: #8a919b; font-size: 12px; letter-spacing: .28em; margin-top: 10px; }
+html[data-design='glass-2'] .hero-lede { color: rgba(255,255,255,.95); font-size: clamp(19px,1.6vw,23px); line-height: 1.4; font-weight: 500; margin-top: 24px; }
+html[data-design='glass-2'] .hero-sub { color: #b1bccb; font-size: 14px; font-weight: 300; max-width: 530px; margin-top: 12px; }
+html[data-design='glass-2'] .hero-sub .ph { color: #8a919b; }
+html[data-design='glass-2'] .hero-cta { margin-top: 26px; }
+html[data-design='glass-2'] .hero-cta .btn { font-size: 12px; font-weight: 500; }
+html[data-design='glass-2'] .hero-stats { border-top: 1px solid rgba(255,255,255,.08); padding-top: 19px; margin-top: 28px; max-width: 540px; gap: 24px; }
+html[data-design='glass-2'] .hero-stats > div { border: 0; padding-left: 0; }
+html[data-design='glass-2'] .hero-stats dd { font-size: 26px; font-weight: 300; letter-spacing: -.02em; }
+html[data-design='glass-2'] .hero-stats dt { color: #8a919b; font-size: 11px; letter-spacing: .025em; }
+html[data-design='glass-2'] .hero-carousel { margin-right: 4%; }
+html[data-design='glass-2'] .car-frame { box-shadow: 0 28px 64px -12px rgba(0,0,0,.85),inset 0 1px 1.5px rgba(255,255,255,.45); }
+html[data-design='glass-2'] .plate { background: radial-gradient(ellipse at 100% 0,rgba(148,204,255,.17),transparent 52%),linear-gradient(135deg,rgba(255,255,255,.045),rgba(14,23,38,.55)); border-color: rgba(255,255,255,.2); }
+html[data-design='glass-2'] .plate-grid { opacity: .025; }
+html[data-design='glass-2'] .plate-glyph { color: #e1e2ea; opacity: .18; top: 45%; font-size: clamp(150px,13vw,190px); font-weight: 300; }
+html[data-design='glass-2'] .plate-name-v { writing-mode: horizontal-tb; right: 50%; top: 46%; transform: translateX(50%); color: #f5f5f7; font-size: 23px; font-weight: 300; letter-spacing: .28em; white-space: nowrap; }
+html[data-design='glass-2'] .plate-meta { bottom: 136px; text-align: center; color: #aacbe2; font-size: 9px; letter-spacing: .19em; }
+html[data-design='glass-2'] .plate-idx { border: 0; color: #9bcfff; font-size: 10px; }
+html[data-design='glass-2'] .is-redacted .plate-name-v { top: 18%; font-size: 17px; opacity: .45; }
+html[data-design='glass-2'] .is-redacted .plate-glyph { opacity: .035; }
+html[data-design='glass-2'] .slide-cap { border-radius: 16px; padding: 13px 15px; }
+html[data-design='glass-2'] .sc-name { font-size: 15px; font-weight: 500; }
+html[data-design='glass-2'] .sc-role { color: #c0c7d1; font-size: 10.5px; font-weight: 300; }
+html[data-design='glass-2'] .sc-inst { color: #8a919b; font-size: 9px; }
+html[data-design='glass-2'] .glass-light--one { left: 43%; top: -16%; width: 720px; height: 720px; background: radial-gradient(ellipse,rgba(100,181,246,.14),rgba(14,23,38,.04) 50%,transparent 72%); }
+html[data-design='glass-2'] .glass-light--two { left: 3%; bottom: -5%; width: 500px; height: 400px; background: radial-gradient(ellipse,rgba(28,65,102,.1),transparent 72%); }
+html[data-design='glass-2'] .glass-light--three { opacity: .3; }
+html[data-design='glass-2'] .glass-background-ribbon--one { opacity: .1; }
+html[data-design='glass-2'] .glass-background-ribbon--two { opacity: .06; }
+html[data-design='glass-2'] :is(.sec-title,.p-title,.leader-name) { font-weight: 500; }
+html[data-design='glass-2'] .proj-name { font-weight: 500; }
+
+html[data-design='glass-3'] {
+  --bg: #060709;
+  --text: #f5f5f7;
+  --muted: #a1a1a6;
+  --muted-2: #86868b;
+  --accent: #d2d9e5;
+  --accent-soft: #f0f2f6;
+  --glass-stage-bg: #060709;
+  --glass-fill: rgba(26,29,34,.42);
+  --glass-border: rgba(255,255,255,.22);
+  --glass-blur: 28px;
+  --glass-saturate: 135%;
+  --glass-shadow: 0 24px 60px -12px rgba(0,0,0,.85);
+  --glass-glint: rgba(255,255,255,.14);
+  --glass-refraction-opacity: .72;
+  --glass-solid-fill: rgba(21,23,28,.98);
+}
+html[data-design='glass-3'] .hero-in { grid-template-columns: minmax(0,1.18fr) minmax(0,.82fr); gap: clamp(50px,6vw,90px); }
+html[data-design='glass-3'] .hero-brand { max-width: 660px; }
+html[data-design='glass-3'] .eyebrow { color: #86868b; font-size: 11px; font-weight: 600; letter-spacing: .22em; }
+html[data-design='glass-3'] .eyebrow .dot { background: #bfc4ce; box-shadow: none; }
+html[data-design='glass-3'] .hero-title { font-size: clamp(60px,5.3vw,82px); line-height: 1.04; font-weight: 700; letter-spacing: -.035em; margin-top: 25px; }
+html[data-design='glass-3'] .hero-title span { background: none; color: #f5f5f7; -webkit-text-fill-color: currentColor; }
+html[data-design='glass-3'] .hero-en { margin-top: 12px; font-size: 12px; font-weight: 500; letter-spacing: .35em; color: #86868b; }
+html[data-design='glass-3'] .hero-lede { color: #d1d1d6; font-size: 20px; font-weight: 400; line-height: 1.6; margin-top: 28px; }
+html[data-design='glass-3'] .hero-sub { color: #96969c; font-size: 13px; line-height: 1.65; max-width: 500px; margin-top: 13px; }
+html[data-design='glass-3'] .hero-sub .ph { color: #7c7c81; }
+html[data-design='glass-3'] .hero-cta { margin-top: 30px; }
+html[data-design='glass-3'] .hero-cta .btn { font-size: 13px; }
+html[data-design='glass-3'] .btn-solid { background: linear-gradient(180deg,#fff,#e2e4e9); border-color: rgba(255,255,255,.85); box-shadow: 0 4px 20px rgba(255,255,255,.16),inset 0 1px 1px #fff; }
+html[data-design='glass-3'] .btn-solid:hover { background: #fff; }
+html[data-design='glass-3'] .hero-stats { margin-top: 34px; max-width: 540px; gap: 24px; }
+html[data-design='glass-3'] .hero-stats > div { padding-left: 0; border: 0; }
+html[data-design='glass-3'] .hero-stats dd { font-size: 28px; font-weight: 600; }
+html[data-design='glass-3'] .hero-stats dt { color: #86868b; font-size: 11px; }
+html[data-design='glass-3'] .hero-carousel { margin-right: 1%; }
+html[data-design='glass-3'] .car-frame { box-shadow: 0 30px 80px -15px rgba(0,0,0,.9); }
+html[data-design='glass-3'] .plate { background: radial-gradient(120% 110% at 75% 0,rgba(255,255,255,.14),rgba(255,255,255,.02) 60%,rgba(0,0,0,.4)),linear-gradient(145deg,rgba(20,23,28,.48),rgba(5,6,7,.35)); border-color: rgba(255,255,255,.22); }
+html[data-design='glass-3'] .plate-grid { opacity: .018; }
+html[data-design='glass-3'] .plate-glyph { top: 41%; color: #d3d9e2; opacity: .08; font-size: clamp(160px,14.6vw,210px); font-weight: 300; }
+html[data-design='glass-3'] .plate-name-v { top: 38%; right: 50%; transform: translateX(50%); color: #f0f0f3; font-size: 24px; font-weight: 300; letter-spacing: .3em; }
+html[data-design='glass-3'] .plate-meta { bottom: 138px; text-align: center; font-size: 9px; color: #818187; letter-spacing: .19em; }
+html[data-design='glass-3'] .plate-idx { border: 0; color: #a1a1a6; font-size: 12px; letter-spacing: .15em; }
+html[data-design='glass-3'] .is-redacted .plate-glyph { opacity: .025; }
+html[data-design='glass-3'] .is-redacted .plate-name-v { top: 15%; right: 25px; transform: none; font-size: 17px; opacity: .3; }
+html[data-design='glass-3'] .slide-cap { border-radius: 22px; padding: 15px; }
+html[data-design='glass-3'] .sc-name { font-size: 15px; font-weight: 500; }
+html[data-design='glass-3'] .sc-role { font-size: 11px; color: #b8b8bd; }
+html[data-design='glass-3'] .sc-inst { font-size: 9px; color: #86868b; }
+html[data-design='glass-3'] .glass-light--one { left: 45%; top: -15%; width: 720px; height: 720px; background: radial-gradient(circle,rgba(140,160,200,.09),rgba(20,30,45,.04) 50%,transparent 75%); }
+html[data-design='glass-3'] .glass-light--two { right: 2%; bottom: 5%; width: 500px; height: 500px; background: radial-gradient(circle,rgba(180,205,240,.07),transparent 70%); }
+html[data-design='glass-3'] .glass-light--three { opacity: .12; }
+html[data-design='glass-3'] .glass-background-ribbon--one { opacity: .055; }
+html[data-design='glass-3'] .glass-background-ribbon--two { opacity: .025; }
+html[data-design='glass-3'] .prog-fill { background: linear-gradient(90deg,#8a939f,#e2e7ef); }
+html[data-design='glass-3'] .s-progress { color: #d8dfe9; background: rgba(197,208,227,.13); }
+html[data-design='glass-3'] .p-eyebrow { color: #b2b8c3; }
+
+@media (max-width:1080px) {
+  html[data-design='glass-2'] .hero-in,
+  html[data-design='glass-3'] .hero-in { grid-template-columns: 1fr; gap: 46px; }
+  html[data-design='glass-2'] .hero-carousel,
+  html[data-design='glass-3'] .hero-carousel { margin-right: 0; }
+}
+@media (max-width:680px) {
+  html[data-design='glass-2'] .hero-title { font-size: clamp(44px,12vw,58px); }
+  html[data-design='glass-3'] .hero-title { font-size: clamp(46px,12.3vw,60px); }
+  html[data-design='glass-2'] .hero-lede,
+  html[data-design='glass-3'] .hero-lede { font-size: 18px; }
+  html[data-design='glass-2'] .hero-stats,
+  html[data-design='glass-3'] .hero-stats { gap: 22px 26px; }
+  html[data-design='glass-2'] .hero-sub,
+  html[data-design='glass-3'] .hero-sub { font-size: 13px; }
+  html[data-design='glass-3'] .hero-en { font-size: 10px; letter-spacing: .26em; }
+  html[data-design='glass-2'] .hero-en { font-size: 10px; letter-spacing: .23em; }
+}
+@media (min-width:1081px) and (max-height:780px) {
+  html[data-design='glass-2'] .hero-title { font-size: 60px; }
+  html[data-design='glass-3'] .hero-title { font-size: 68px; }
+  html[data-design='glass-3'] .hero-lede { margin-top: 20px; }
+  html[data-design='glass-3'] .hero-cta { margin-top: 22px; }
+  html[data-design='glass-3'] .hero-stats { margin-top: 24px; }
+}

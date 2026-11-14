@@ -1,0 +1,396 @@
+{
+  "baseURL": "http://127.0.0.1:18180",
+  "scope": "fonts",
+  "timestamp": "2026-11-11T12:55:47.376Z",
+  "results": [
+    {
+      "name": "glass-1 rendered font hierarchy",
+      "pass": true,
+      "detail": {
+        "brand": {
+          "style": {
+            "family": "\"Songti SC\", STSong, SimSun, \"Noto Serif CJK SC\", serif",
+            "weight": "700",
+            "style": "normal"
+          },
+          "actual": [
+            {
+              "family": "STSong",
+              "postScriptName": "STSong",
+              "custom": false,
+              "glyphs": 3
+            }
+          ]
+        },
+        "body": {
+          "style": {
+            "family": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+            "weight": "400",
+            "style": "normal"
+          },
+          "actual": [
+            {
+              "family": "Microsoft YaHei",
+              "postScriptName": "MicrosoftYaHei",
+              "custom": false,
+              "glyphs": 58
+            }
+          ]
+        },
+        "english": {
+          "style": {
+            "family": "Consolas, Menlo, Monaco, \"Courier New\", \"Microsoft YaHei\", monospace",
+            "weight": "500",
+            "style": "normal"
+          },
+          "actual": [
+            {
+              "family": "Consolas",
+              "postScriptName": "Consolas",
+              "custom": false,
+              "glyphs": 21
+            }
+          ]
+        },
+        "label": {
+          "style": {
+            "family": "Consolas, Menlo, Monaco, \"Courier New\", \"Microsoft YaHei\", monospace",
+            "weight": "500",
+            "style": "normal"
+          },
+          "actual": [
+            {
+              "family": "Consolas",
+              "postScriptName": "Consolas",
+              "custom": false,
+              "glyphs": 30
+            }
+          ]
+        },
+        "digits": {
+          "style": {
+            "family": "Bahnschrift, \"DIN Alternate\", \"Arial Narrow\", \"Helvetica Neue\", sans-serif",
+            "weight": "400",
+            "style": "normal"
+          },
+          "actual": [
+            {
+              "family": "Bahnschrift",
+              "postScriptName": "Bahnschrift",
+              "custom": false,
+              "glyphs": 2
+            }
+          ]
+        },
+        "quote": {
+          "style": {
+            "family": "Georgia, \"Kaiti SC\", STKaiti, KaiTi, \"Songti SC\", SimSun, serif",
+            "weight": "400",
+            "style": "italic"
+          },
+          "actual": [
+            {
+              "family": "STKaiti",
+              "postScriptName": "STKaiti",
+              "custom": false,
+              "glyphs": 13
+            },
+            {
+              "family": "Georgia",
+              "postScriptName": "Georgia-Italic",
+              "custom": false,
+              "glyphs": 2
+            }
+          ]
+        },
+        "distinctRenderedFamilies": [
+          "STSong",
+          "Microsoft YaHei",
+          "Consolas",
+          "Bahnschrift",
+          "STKaiti",
+          "Georgia"
+        ]
+      }
+    },
+    {
+      "name": "glass-1 profile title font",
+      "pass": true,
+      "detail": {
+        "style": {
+          "family": "\"Songti SC\", STSong, SimSun, \"Noto Serif CJK SC\", serif",
+          "fontStyle": "normal"
+        },
+        "actual": [
+          {
+            "family": "STSong",
+            "postScriptName": "STSong",
+            "custom": false,
+            "glyphs": 2
+          }
+        ]
+      }
+    },
+    {
+      "name": "glass-2 rendered font hierarchy",
+      "pass": true,
+      "detail": {
+        "brand": {
+          "style": {
+            "family": "\"Songti SC\", STSong, SimSun, \"Noto Serif CJK SC\", serif",
+            "weight": "400",
+            "style": "normal"
+          },
+          "actual": [
+            {
+              "family": "STSong",
+              "postScriptName": "STSong",
+              "custom": false,
+              "glyphs": 3
+            }
+          ]
+        },
+        "body": {
+          "style": {
+            "family": "DengXian, \"PingFang SC\", \"Microsoft YaHei\", -apple-system, sans-serif",
+            "weight": "300",
+            "style": "normal"
+          },
+          "actual": [
+            {
+              "family": "DengXian Light",
+              "postScriptName": "DengXian-Light",
+              "custom": false,
+              "glyphs": 58
+            }
+          ]
+        },
+        "english": {
+          "style": {
+            "family": "Bahnschrift, \"DIN Alternate\", \"Arial Narrow\", \"Helvetica Neue\", sans-serif",
+            "weight": "500",
+            "style": "normal"
+          },
+          "actual": [
+            {
+              "family": "Bahnschrift",
+              "postScriptName": "Bahnschrift-SemiBold",
+              "custom": false,
+              "glyphs": 21
+            }
+          ]
+        },
+        "label": {
+          "style": {
+            "family": "Consolas, Menlo, Monaco, \"Courier New\", \"Microsoft YaHei\", monospace",
+            "weight": "500",
+            "style": "normal"
+          },
+          "actual": [
+            {
+              "family": "Consolas",
+              "postScriptName": "Consolas",
+              "custom": false,
+              "glyphs": 30
+            }
+          ]
+        },
+        "digits": {
+          "style": {
+            "family": "Georgia, \"Times New Roman\", \"Songti SC\", SimSun, serif",
+            "weight": "300",
+            "style": "normal"
+          },
+          "actual": [
+            {
+              "family": "Georgia",
+              "postScriptName": "Georgia",
+              "custom": false,
+              "glyphs": 2
+            }
+          ]
+        },
+        "quote": {
+          "style": {
+            "family": "Georgia, \"Kaiti SC\", STKaiti, KaiTi, \"Songti SC\", SimSun, serif",
+            "weight": "400",
+            "style": "italic"
+          },
+          "actual": [
+            {
+              "family": "STKaiti",
+              "postScriptName": "STKaiti",
+              "custom": false,
+              "glyphs": 13
+            },
+            {
+              "family": "Georgia",
+              "postScriptName": "Georgia-Italic",
+              "custom": false,
+              "glyphs": 2
+            }
+          ]
+        },
+        "distinctRenderedFamilies": [
+          "STSong",
+          "DengXian Light",
+          "Bahnschrift",
+          "Consolas",
+          "Georgia",
+          "STKaiti"
+        ]
+      }
+    },
+    {
+      "name": "glass-2 profile title font",
+      "pass": true,
+      "detail": {
+        "style": {
+          "family": "\"Songti SC\", STSong, SimSun, \"Noto Serif CJK SC\", serif",
+          "fontStyle": "normal"
+        },
+        "actual": [
+          {
+            "family": "STSong",
+            "postScriptName": "STSong",
+            "custom": false,
+            "glyphs": 2
+          }
+        ]
+      }
+    },
+    {
+      "name": "glass-3 rendered font hierarchy",
+      "pass": true,
+      "detail": {
+        "brand": {
+          "style": {
+            "family": "DengXian, \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+            "weight": "700",
+            "style": "normal"
+          },
+          "actual": [
+            {
+              "family": "DengXian",
+              "postScriptName": "DengXian-Bold",
+              "custom": false,
+              "glyphs": 3
+            }
+          ]
+        },
+        "body": {
+          "style": {
+            "family": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+            "weight": "400",
+            "style": "normal"
+          },
+          "actual": [
+            {
+              "family": "Microsoft YaHei",
+              "postScriptName": "MicrosoftYaHei",
+              "custom": false,
+              "glyphs": 58
+            }
+          ]
+        },
+        "english": {
+          "style": {
+            "family": "Bahnschrift, \"DIN Alternate\", \"Arial Narrow\", \"Helvetica Neue\", sans-serif",
+            "weight": "500",
+            "style": "normal"
+          },
+          "actual": [
+            {
+              "family": "Bahnschrift",
+              "postScriptName": "Bahnschrift-SemiBold",
+              "custom": false,
+              "glyphs": 21
+            }
+          ]
+        },
+        "label": {
+          "style": {
+            "family": "Consolas, Menlo, Monaco, \"Courier New\", \"Microsoft YaHei\", monospace",
+            "weight": "600",
+            "style": "normal"
+          },
+          "actual": [
+            {
+              "family": "Consolas",
+              "postScriptName": "Consolas-Bold",
+              "custom": false,
+              "glyphs": 30
+            }
+          ]
+        },
+        "digits": {
+          "style": {
+            "family": "Georgia, \"Times New Roman\", \"Songti SC\", SimSun, serif",
+            "weight": "600",
+            "style": "normal"
+          },
+          "actual": [
+            {
+              "family": "Georgia",
+              "postScriptName": "Georgia-Bold",
+              "custom": false,
+              "glyphs": 2
+            }
+          ]
+        },
+        "quote": {
+          "style": {
+            "family": "Georgia, \"Kaiti SC\", STKaiti, KaiTi, \"Songti SC\", SimSun, serif",
+            "weight": "400",
+            "style": "italic"
+          },
+          "actual": [
+            {
+              "family": "STKaiti",
+              "postScriptName": "STKaiti",
+              "custom": false,
+              "glyphs": 13
+            },
+            {
+              "family": "Georgia",
+              "postScriptName": "Georgia-Italic",
+              "custom": false,
+              "glyphs": 2
+            }
+          ]
+        },
+        "distinctRenderedFamilies": [
+          "DengXian",
+          "Microsoft YaHei",
+          "Bahnschrift",
+          "Consolas",
+          "Georgia",
+          "STKaiti"
+        ]
+      }
+    },
+    {
+      "name": "glass-3 profile title font",
+      "pass": true,
+      "detail": {
+        "style": {
+          "family": "DengXian, \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+          "fontStyle": "normal"
+        },
+        "actual": [
+          {
+            "family": "DengXian",
+            "postScriptName": "DengXian-Bold",
+            "custom": false,
+            "glyphs": 2
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "failedRequests": [],
+  "externalRequests": [],
+  "passed": 6,
+  "failed": 0
+}

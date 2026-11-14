@@ -1,0 +1,89 @@
+{
+  "baseURL": "http://127.0.0.1:18180",
+  "timestamp": "2026-11-11T11:50:58.058Z",
+  "results": [
+    {
+      "viewport": 1440,
+      "expected": 12,
+      "rendered": 11.997854652721909,
+      "transform": "none"
+    },
+    {
+      "viewport": 1440,
+      "expected": 64,
+      "rendered": 63.99570930544382,
+      "transform": "none"
+    },
+    {
+      "viewport": 1440,
+      "expected": 38,
+      "rendered": 37.99742572133433,
+      "transform": "none"
+    },
+    {
+      "viewport": 1440,
+      "expected": 100,
+      "rendered": 100,
+      "transform": "none"
+    },
+    {
+      "viewport": 1440,
+      "expected": 21,
+      "rendered": 20.997586484312148,
+      "transform": "none"
+    },
+    {
+      "viewport": 1440,
+      "expected": 47,
+      "rendered": 46.99667489005685,
+      "transform": "none"
+    },
+    {
+      "viewport": 390,
+      "expected": 12,
+      "rendered": 11.996822033898304,
+      "transform": "none"
+    },
+    {
+      "viewport": 390,
+      "expected": 64,
+      "rendered": 63.996292372881356,
+      "transform": "none"
+    },
+    {
+      "viewport": 390,
+      "expected": 38,
+      "rendered": 37.99655720338983,
+      "transform": "none"
+    },
+    {
+      "viewport": 390,
+      "expected": 100,
+      "rendered": 100,
+      "transform": "none"
+    },
+    {
+      "viewport": 390,
+      "expected": 21,
+      "rendered": 20.994438559322035,
+      "transform": "none"
+    },
+    {
+      "viewport": 390,
+      "expected": 47,
+      "rendered": 46.99417372881356,
+      "transform": "none"
+    },
+    {
+      "snap": {
+        "index": 1,
+        "actualX": -318.375,
+        "targetX": -318.375,
+        "path": "/"
+      }
+    }
+  ],
+  "errors": [],
+  "passed": 14,
+  "failed": 0
+}

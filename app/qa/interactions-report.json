@@ -1,0 +1,112 @@
+{
+  "baseURL": "http://127.0.0.1:18180",
+  "scope": "interactions",
+  "timestamp": "2026-11-11T11:48:36.261Z",
+  "results": [
+    {
+      "name": "1440×810 complete hero in viewport",
+      "pass": true,
+      "detail": [
+        {
+          "selector": ".hero-title",
+          "top": 166.40859985351562,
+          "bottom": 343.3460998535156
+        },
+        {
+          "selector": ".hero-cta",
+          "top": 564.7991943359375,
+          "bottom": 610.7991943359375
+        },
+        {
+          "selector": ".hero-stats",
+          "top": 640.7991943359375,
+          "bottom": 708.9710693359375
+        },
+        {
+          "selector": "[data-testid=\"leader-carousel\"]",
+          "top": 90,
+          "bottom": 739.375
+        }
+      ]
+    },
+    {
+      "name": "1280×800 complete hero in viewport",
+      "pass": true,
+      "detail": [
+        690.15625,
+        729.375
+      ]
+    },
+    {
+      "name": "carousel autoplay after 5.6 seconds",
+      "pass": true,
+      "detail": {
+        "before": 0,
+        "after": 1
+      }
+    },
+    {
+      "name": "carousel hover pauses autoplay",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "carousel focus pauses autoplay",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "carousel next and previous buttons",
+      "pass": true
+    },
+    {
+      "name": "carousel keyboard left/right",
+      "pass": true
+    },
+    {
+      "name": "carousel pause/resume button",
+      "pass": true
+    },
+    {
+      "name": "carousel mouse drag advances without navigating",
+      "pass": true
+    },
+    {
+      "name": "carousel photo navigates to corresponding field",
+      "pass": true
+    },
+    {
+      "name": "desktop field menu hover, Escape, outside and click toggle",
+      "pass": true
+    },
+    {
+      "name": "mobile menu full screen, focus trap, Escape and navigation",
+      "pass": true
+    },
+    {
+      "name": "cooperation copies phone, location and email with toast",
+      "pass": true
+    },
+    {
+      "name": "mobile touch swipe advances without navigating",
+      "pass": true
+    },
+    {
+      "name": "reduced-motion preference is honored",
+      "pass": true,
+      "detail": 11
+    },
+    {
+      "name": "no browser console or runtime errors",
+      "pass": true
+    },
+    {
+      "name": "no failed network requests",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "failedRequests": [],
+  "passed": 17,
+  "failed": 0
+}
